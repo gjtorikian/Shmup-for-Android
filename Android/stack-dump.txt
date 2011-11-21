@@ -1,0 +1,83 @@
+
+D/dalvikvm( 1883): GC_FOR_MALLOC freed 377K, 51% free 3028K/6087K, external 51K/512K, paused 14ms
+I/ActivityManager( 1061): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1194
+I/ActivityManager( 1061): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=2794 uid=10121 gids={3003, 1015}
+D/dalvikvm( 2794): Trying to load lib /data/data/com.miadzin.shmup/lib/libopenal.so 0x40513bb8
+D/dalvikvm( 2794): Added shared lib /data/data/com.miadzin.shmup/lib/libopenal.so 0x40513bb8
+D/dalvikvm( 2794): Trying to load lib /data/data/com.miadzin.shmup/lib/libshmup.so 0x40513bb8
+D/dalvikvm( 2794): Added shared lib /data/data/com.miadzin.shmup/lib/libshmup.so 0x40513bb8
+D/dalvikvm( 2794): No JNI_OnLoad found in /data/data/com.miadzin.shmup/lib/libshmup.so 0x40513bb8, skipping init
+D/dalvikvm( 1061): GC_CONCURRENT freed 1938K, 39% free 7076K/11527K, external 5084K/5431K, paused 10ms+10ms
+I/libshmup( 2794): [Filesystem] Initialized.
+I/DEBUG   (  980): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  980): Build fingerprint: 'lge/lge_lge_star/p999:2.3.3/GRI40/lgp999-V21e.41fdc8a2:user/release-keys'
+I/DEBUG   (  980): pid: 2794, tid: 2803  >>> com.miadzin.shmup <<<
+I/DEBUG   (  980): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000000
+I/DEBUG   (  980):  r0 00000011  r1 80647234  r2 44ae2bb4  r3 00000000
+I/DEBUG   (  980):  r4 8064da40  r5 8060e9f9  r6 0013b480  r7 00000078
+I/DEBUG   (  980):  r8 8060e9f9  r9 0013b480  10 00100000  fp 00000001
+I/DEBUG   (  980):  ip ffffff1c  sp 44ae2bc0  lr 8061a20d  pc 8061a212  cpsr 60000030
+I/DEBUG   (  980):  d0  41a000003dcccccd  d1  3ff0000000000000
+I/DEBUG   (  980):  d2  4d82d98f42473e19  d3  00540ff04a277ce0
+I/DEBUG   (  980):  d4  3fbc71c70029df38  d5  3fe999999999999a
+I/DEBUG   (  980):  d6  01405c8000000000  d7  417405c808000000
+I/DEBUG   (  980):  d8  0000000000000000  d9  0000000000000000
+I/DEBUG   (  980):  d10 0000000000000000  d11 0000000000000000
+I/DEBUG   (  980):  d12 0000000000000000  d13 0000000000000000
+I/DEBUG   (  980):  d14 0000000000000000  d15 0000000000000000
+I/DEBUG   (  980):  scr 60000010
+I/DEBUG   (  980): 
+I/ActivityManager( 1061): Displayed com.miadzin.shmup/.TouchpadNAActivity: +369ms
+I/DEBUG   (  980):          #00  pc 0001a212  /data/data/com.miadzin.shmup/lib/libshmup.so (prtCurrentIsWhiteChar)
+I/DEBUG   (  980):          #01  pc 0001a43a  /data/data/com.miadzin.shmup/lib/libshmup.so (LE_skipWhiteSpace)
+I/DEBUG   (  980):          #02  pc 0001a45a  /data/data/com.miadzin.shmup/lib/libshmup.so (LE_readToken)
+I/DEBUG   (  980):          #03  pc 000126ca  /data/data/com.miadzin.shmup/lib/libshmup.so (dEngine_ReadConfig)
+I/DEBUG   (  980):          #04  pc 00012f48  /data/data/com.miadzin.shmup/lib/libshmup.so (dEngine_Init)
+I/DEBUG   (  980):          #05  pc 0000e0c0  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):          #06  pc 0000e480  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):          #07  pc 0000e9e6  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):          #08  pc 0000e61e  /data/data/com.miadzin.shmup/lib/libshmup.so (android_main)
+I/DEBUG   (  980):          #09  pc 0000eaac  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):          #10  pc 00011f44  /system/lib/libc.so (__thread_entry)
+I/DEBUG   (  980):          #11  pc 00011aec  /system/lib/libc.so (pthread_create)
+I/DEBUG   (  980): 
+I/DEBUG   (  980): code around pc:
+I/DEBUG   (  980): 8061a1f0 00000364 4c0ab510 4b0a447c 691a58e3 
+I/DEBUG   (  980): 8061a200 447b4b09 46114618 eddef7f2 58e34b05 
+I/DEBUG   (  980): 8061a210 781b691b 58a24a05 46185cd3 bf00bd10 
+I/DEBUG   (  980): 8061a220 00033844 00000364 0002d02e 000004b8 
+I/DEBUG   (  980): 8061a230 b082b570 447c4c2b 4b2b9001 461a58e3 
+I/DEBUG   (  980): 
+I/DEBUG   (  980): code around lr:
+I/DEBUG   (  980): 8061a1ec 00033890 00000364 4c0ab510 4b0a447c 
+I/DEBUG   (  980): 8061a1fc 691a58e3 447b4b09 46114618 eddef7f2 
+I/DEBUG   (  980): 8061a20c 58e34b05 781b691b 58a24a05 46185cd3 
+I/DEBUG   (  980): 8061a21c bf00bd10 00033844 00000364 0002d02e 
+I/DEBUG   (  980): 8061a22c 000004b8 b082b570 447c4c2b 4b2b9001 
+I/DEBUG   (  980): 
+I/DEBUG   (  980): stack:
+I/DEBUG   (  980):     44ae2b80  8060e9f9  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):     44ae2b84  0013b480  
+I/DEBUG   (  980):     44ae2b88  00000078  
+I/DEBUG   (  980):     44ae2b8c  8060e9f9  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):     44ae2b90  0013b480  
+I/DEBUG   (  980):     44ae2b94  00100000  
+I/DEBUG   (  980):     44ae2b98  00000001  
+I/DEBUG   (  980):     44ae2b9c  afd19c07  /system/lib/libc.so
+I/DEBUG   (  980):     44ae2ba0  80647234  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):     44ae2ba4  44ae2bb4  
+I/DEBUG   (  980):     44ae2ba8  00000000  
+I/DEBUG   (  980):     44ae2bac  8061a20d  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):     44ae2bb0  80647234  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980):     44ae2bb4  00000000  
+I/DEBUG   (  980):     44ae2bb8  df002777  
+I/DEBUG   (  980):     44ae2bbc  e3a070ad  
+I/DEBUG   (  980): #00 44ae2bc0  8064da40  
+I/DEBUG   (  980):     44ae2bc4  8061a43f  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  980): #01 44ae2bc8  8064da40  
+I/DEBUG   (  980):     44ae2bcc  8061a45f  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/BootReceiver( 1061): Copying /data/tombstones/tombstone_02 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1061): Process com.miadzin.shmup (pid 2794) has died.
+D/Zygote  (  982): Process 2794 terminated by signal (11)
+I/WindowManager( 1061): WIN DEATH: Window{408548e0 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/InputManagerService( 1061): Got RemoteException sending setActive(false) notification to pid 2794 uid 10121

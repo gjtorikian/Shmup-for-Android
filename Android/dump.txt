@@ -1,0 +1,1420 @@
+--------- beginning of /dev/log/system
+I/ActivityManager( 1043): No longer want com.android.settings (pid 31691): hidden #16
+I/WindowManager( 1043): WIN DEATH: Window{4073de98 com.android.settings/com.android.settings.Settings paused=false}
+I/WindowManager( 1043): WIN DEATH: Window{40874c60 com.android.settings/com.android.settings.ApplicationSettings paused=false}
+I/WindowManager( 1043): WIN DEATH: Window{409c2b38 com.android.settings/com.android.settings.ManageApplications paused=false}
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@407ce948}
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@407ce948}
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=35 seq=43 themeResource=null}
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/android.app.NativeActivity } from pid 1161
+I/ActivityManager( 1043): Start proc com.miadzin.shmup for activity com.miadzin.shmup/android.app.NativeActivity: pid=3419 uid=10090 gids={3003, 1015}
+I/BootReceiver( 1043): Copying /data/tombstones/tombstone_08 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1043): Process com.miadzin.shmup (pid 3419) has died.
+I/WindowManager( 1043): WIN DEATH: Window{409c2b38 com.miadzin.shmup/android.app.NativeActivity paused=false}
+W/InputManagerService( 1043): Got RemoteException sending setActive(false) notification to pid 3419 uid 10090
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=35 seq=44 themeResource=null}
+I/TelephonyRegistry( 1043): notifyServiceState: 1 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=false reason=null interfaceName=vsnet0 networkType=10
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+W/ProcessStats( 1043): Skipping unknown process pid 3950
+W/ProcessStats( 1043): Skipping unknown process pid 3951
+I/ActivityManager( 1043): No longer want com.google.android.apps.googlevoice (pid 28075): hidden #16
+I/ActivityManager( 1043): No longer want com.cyanogenmod.LGEServices (pid 28023): hidden #17
+I/ActivityManager( 1043): No longer want com.twitter.android (pid 32678): hidden #16
+W/ActivityManager( 1043): Scheduling restart of crashed service com.cyanogenmod.LGEServices/.LGEServices in 5000ms
+W/ActivityManager( 1043): Scheduling restart of crashed service com.google.android.apps.googlevoice/.UpdateService in 14998ms
+W/ActivityManager( 1043): Scheduling restart of crashed service com.google.android.apps.googlevoice/.CallLogService in 24997ms
+I/ActivityManager( 1043): Start proc com.cyanogenmod.LGEServices for service com.cyanogenmod.LGEServices/.LGEServices: pid=4649 uid=1000 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1043): Start proc com.google.android.apps.googlevoice for service com.google.android.apps.googlevoice/.UpdateService: pid=4697 uid=10066 gids={3003, 1015}
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=35 seq=45 themeResource=null}
+W/ActivityManager( 1043): No content provider found for: 
+W/ActivityManager( 1043): No content provider found for: 
+I/ActivityManager( 1043): Force stopping package com.miadzin.shmup uid=10090
+I/PackageManager( 1043): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/PackageManager( 1043): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1043): Force stopping package com.miadzin.shmup uid=10090
+W/PackageManager( 1043): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1043): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1043): Force stopping package com.miadzin.shmup uid=10090
+W/PackageManager( 1043): Couldn't remove dex file for package:  at location /data/app/com.miadzin.shmup-2.apk, retcode=-1
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  EDGE CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=2
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/android.app.NativeActivity } from pid 1161
+I/ActivityManager( 1043): Start proc com.miadzin.shmup for activity com.miadzin.shmup/android.app.NativeActivity: pid=4829 uid=10090 gids={3003, 1015}
+I/BootReceiver( 1043): Copying /data/tombstones/tombstone_09 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1043): Process com.miadzin.shmup (pid 4829) has died.
+I/WindowManager( 1043): WIN DEATH: Window{408cb3a8 com.miadzin.shmup/android.app.NativeActivity paused=false}
+W/InputManagerService( 1043): Got RemoteException sending setActive(false) notification to pid 4829 uid 10090
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=35 seq=46 themeResource=null}
+I/TelephonyRegistry( 1043): notifyServiceState: 1 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=false reason=null interfaceName=vsnet0 networkType=10
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=35 seq=47 themeResource=null}
+W/ActivityManager( 1043): No content provider found for: 
+W/ActivityManager( 1043): No content provider found for: 
+I/ActivityManager( 1043): Force stopping package com.miadzin.shmup uid=10090
+I/PackageManager( 1043): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1043): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1043): Force stopping package com.miadzin.shmup uid=10090
+W/PackageManager( 1043): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1043): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1043): Force stopping package com.miadzin.shmup uid=10090
+W/PackageManager( 1043): Couldn't remove dex file for package:  at location /data/app/com.miadzin.shmup-1.apk, retcode=-1
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/android.app.NativeActivity } from pid 1161
+I/ActivityManager( 1043): Start proc com.miadzin.shmup for activity com.miadzin.shmup/android.app.NativeActivity: pid=5372 uid=10090 gids={3003, 1015}
+I/BootReceiver( 1043): Copying /data/tombstones/tombstone_00 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1043): Process com.miadzin.shmup (pid 5372) has died.
+I/WindowManager( 1043): WIN DEATH: Window{408b83a0 com.miadzin.shmup/android.app.NativeActivity paused=false}
+W/InputManagerService( 1043): Got RemoteException sending setActive(false) notification to pid 5372 uid 10090
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=35 seq=48 themeResource=null}
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  EDGE CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=2
+W/ProcessStats( 1043): Skipping unknown process pid 5554
+W/ProcessStats( 1043): Skipping unknown process pid 5555
+I/TelephonyRegistry( 1043): notifyServiceState: 1 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=false reason=null interfaceName=vsnet0 networkType=10
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+W/ProcessStats( 1043): Skipping unknown process pid 6483
+W/ProcessStats( 1043): Skipping unknown process pid 6484
+W/ProcessStats( 1043): Skipping unknown process pid 8288
+W/ProcessStats( 1043): Skipping unknown process pid 8289
+W/ProcessStats( 1043): Skipping unknown process pid 8374
+W/ProcessStats( 1043): Skipping unknown process pid 8375
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=35 seq=49 themeResource=null}
+I/ActivityManager( 1043): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=8698 uid=1000 gids={3002, 3001, 3003, 1015}
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  EDGE CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=2
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 2
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{NetworkLocationProvider type=2 binder=android.os.BinderProxy@40781070}
+I/ActivityManager( 1043): Starting: Intent { flg=0x4000000 cmp=com.facebook.katana/.HomeActivity bnds=[0,559][480,655] (has extras) } from pid -1
+W/ActivityManager( 1043): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x4000000 cmp=com.facebook.katana/.HomeActivity bnds=[0,559][480,655] (has extras) }
+D/WifiWatchdogService( 1043): (android.server.ServerThread) CienPesos (00:22:75:1a:90:2c) does not require the watchdog
+I/ActivityManager( 1043): Start proc com.cyanogenmod.stats for broadcast com.cyanogenmod.stats/.ReportingServiceManager: pid=8834 uid=10030 gids={3003}
+I/ActivityManager( 1043): Start proc com.google.android.apps.uploader for broadcast com.google.android.apps.uploader/.ConnectivityBroadcastReceiver: pid=8845 uid=10036 gids={3003}
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=dataDisabled interfaceName=null networkType=2
+I/ActivityManager( 1043): Start proc android.process.media for broadcast com.android.providers.downloads/.DownloadReceiver: pid=8871 uid=10020 gids={1015, 2001, 3003}
+I/ActivityManager( 1043): No longer want com.android.defcontainer (pid 18447): hidden #16
+I/ActivityManager( 1043): Start proc com.google.android.gm for broadcast com.google.android.gm/.downloadprovider.DownloadReceiver: pid=8890 uid=10072 gids={3003, 1015}
+I/ActivityManager( 1043): No longer want com.noshufou.android.su (pid 18474): hidden #16
+I/ActivityManager( 1043): Start proc com.ridecharge.android.taximagic for broadcast com.ridecharge.android.taximagic/com.urbanairship.push.IntentReceiver: pid=8914 uid=10081 gids={3003, 1015}
+I/ActivityManager( 1043): No longer want com.google.android.partnersetup (pid 2628): hidden #16
+I/ActivityManager( 1043): No longer want com.android.voicedialer (pid 15794): hidden #16
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{NetworkLocationProvider type=2 binder=android.os.BinderProxy@40781070}
+I/ActivityManager( 1043): Start proc com.cyanogenmod.ganoptimizer for broadcast com.cyanogenmod.ganoptimizer/.GanStateReceiver: pid=9048 uid=10016 gids={}
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@409a37a8}
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@409a37a8}
+I/ActivityManager( 1043): No longer want com.tmobile.thememanager (pid 15802): hidden #16
+I/ActivityManager( 1043): Starting: Intent { act=com.android.kineto.DISPLAY_ADDR_REM flg=0x10000000 cmp=com.android.kineto/.AddrRemPopup } from pid 1150
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=gprsDetached interfaceName=null networkType=0
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@407c8848
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  GPRS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=1
+I/ActivityManager( 1043): Starting: Intent { cmp=com.facebook.katana/.activity.feedback.FeedbackActivity (has extras) } from pid 367
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.fede.launcher/.Launcher } from pid 1043
+W/ProcessStats( 1043): Skipping unknown process pid 9175
+W/ProcessStats( 1043): Skipping unknown process pid 9176
+I/ActivityManager( 1043): No longer want com.svox.pico (pid 15866): hidden #16
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.koushikdutta.rommanager/.RomManager } from pid 1161
+I/ActivityManager( 1043): Start proc com.koushikdutta.rommanager for activity com.koushikdutta.rommanager/.RomManager: pid=9197 uid=10015 gids={1015, 3003}
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=35 seq=50 themeResource=null}
+I/ActivityManager( 1043): Starting: Intent { flg=0x14000000 cmp=com.koushikdutta.rommanager/.RomList (has extras) } from pid 9197
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=35 seq=51 themeResource=null}
+W/ProcessStats( 1043): Skipping unknown process pid 9327
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=35 seq=52 themeResource=null}
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{PrefetcherService type=1 binder=android.os.BinderProxy@40721c40}
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=35 seq=53 themeResource=null}
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.keramidas.TitaniumBackup/.MainActivity } from pid 1161
+I/ActivityManager( 1043): Start proc com.keramidas.TitaniumBackupPro for service com.keramidas.TitaniumBackupPro/.LicenseQueryService: pid=10078 uid=10068 gids={1015}
+I/ActivityManager( 1043): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.SuNotificationReceiver: pid=10104 uid=10009 gids={1015, 3003}
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40a2eb00
+I/ActivityManager( 1043): No longer want com.google.android.apps.maps:FriendService (pid 2638): hidden #16
+I/ActivityManager( 1043): Starting: Intent { cmp=com.keramidas.TitaniumBackup/.BatchActivity } from pid 15825
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 2
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{PrefetcherService type=1 binder=android.os.BinderProxy@40721c40}
+I/ActivityManager( 1043): No longer want com.wsl.noom (pid 15846): hidden #16
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@408b4c10
+I/ActivityManager( 1043): Starting: Intent { cmp=com.keramidas.TitaniumBackup/.BatchActivity } from pid 15825
+D/Vold    (  971): USB disconnected
+D/Vold    (  971): Share method ums now unavailable
+I/StorageNotification( 1132): UMS connection changed to false (media state mounted)
+W/Vold    (  971): Ignoring unknown switch 'usb_mass_storage'
+D/Vold    (  971): USB disconnected
+W/ProcessStats( 1043): Skipping unknown process pid 10477
+W/ProcessStats( 1043): Skipping unknown process pid 10478
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): Process com.urbanairship.airmail (pid 1753) has died.
+W/ActivityManager( 1043): Scheduling restart of crashed service com.urbanairship.airmail/.AirMailService in 5000ms
+I/WindowManager( 1043): Setting rotation to 1, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=35 seq=54 themeResource=null}
+I/ActivityManager( 1043): Start proc com.urbanairship.airmail for service com.urbanairship.airmail/.AirMailService: pid=10611 uid=10123 gids={3003, 1015}
+I/ActivityManager( 1043): Process com.levelup.beautifulwidgets (pid 2262) has died.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): Process com.facebook.katana (pid 367) has died.
+I/WindowManager( 1043): WIN DEATH: Window{4089c098 com.facebook.katana/com.facebook.katana.HomeActivity paused=false}
+I/WindowManager( 1043): WIN DEATH: Window{407bef10 com.facebook.katana/com.facebook.katana.activity.feedback.FeedbackActivity paused=false}
+I/ActivityManager( 1043): Process com.google.android.gm (pid 8890) has died.
+I/ActivityManager( 1043): Process com.google.android.apps.googlevoice (pid 4697) has died.
+W/ActivityManager( 1043): Scheduling restart of crashed service com.google.android.apps.googlevoice/.widget.WidgetService in 5000ms
+W/ActivityManager( 1043): Scheduling restart of crashed service com.google.android.apps.googlevoice/.CallLogService in 14999ms
+W/ActivityManager( 1043): Scheduling restart of crashed service com.google.android.apps.googlevoice/.UpdateService in 24999ms
+I/ActivityManager( 1043): Process com.google.android.apps.plus (pid 1948) has died.
+W/ActivityManager( 1043): Scheduling restart of crashed service com.google.android.apps.plus/com.google.android.apps.uploader.cloudsync.CloudSyncWatcherService in 32962ms
+W/ActivityManager( 1043): Scheduling restart of crashed service com.google.android.apps.plus/com.google.android.apps.uploader.UploadService in 42962ms
+I/ActivityManager( 1043): Start proc com.google.android.apps.googlevoice for service com.google.android.apps.googlevoice/.widget.WidgetService: pid=10791 uid=10066 gids={3003, 1015}
+I/ActivityManager( 1043): Process com.google.android.apps.maps (pid 2795) has died.
+I/ActivityManager( 1043): Start proc com.levelup.beautifulwidgets for broadcast com.levelup.beautifulwidgets/.CalendarWidget21: pid=10858 uid=10117 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 1043): Start proc com.google.android.apps.plus for service com.google.android.apps.plus/com.google.android.apps.uploader.cloudsync.CloudSyncWatcherService: pid=10924 uid=10110 gids={3003, 1015}
+I/WindowManager( 1043): WIN DEATH: Window{408d80c0 InputMethod paused=false}
+I/ActivityManager( 1043): Process com.swype.android.inputmethod (pid 1142) has died.
+W/ActivityManager( 1043): Scheduling restart of crashed service com.swype.android.inputmethod/.SwypeInputMethod in 5000ms
+W/InputManagerService( 1043): Session failed to close due to remote exception
+W/InputManagerService( 1043): android.os.DeadObjectException
+W/InputManagerService( 1043): 	at android.os.BinderProxy.transact(Native Method)
+W/InputManagerService( 1043): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:346)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.finishSession(InputMethodManagerService.java:896)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:907)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:924)
+W/InputManagerService( 1043): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1069)
+W/InputManagerService( 1043): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1083)
+W/InputManagerService( 1043): 	at android.os.Handler.handleCallback(Handler.java:587)
+W/InputManagerService( 1043): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+W/InputManagerService( 1043): 	at android.os.Looper.loop(Looper.java:130)
+W/InputManagerService( 1043): 	at com.android.server.ServerThread.run(SystemServer.java:630)
+W/InputManagerService( 1043): Session failed to close due to remote exception
+W/InputManagerService( 1043): android.os.DeadObjectException
+W/InputManagerService( 1043): 	at android.os.BinderProxy.transact(Native Method)
+W/InputManagerService( 1043): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:346)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.finishSession(InputMethodManagerService.java:896)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:907)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:924)
+W/InputManagerService( 1043): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1069)
+W/InputManagerService( 1043): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1083)
+W/InputManagerService( 1043): 	at android.os.Handler.handleCallback(Handler.java:587)
+W/InputManagerService( 1043): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+W/InputManagerService( 1043): 	at android.os.Looper.loop(Looper.java:130)
+W/InputManagerService( 1043): 	at com.android.server.ServerThread.run(SystemServer.java:630)
+W/InputManagerService( 1043): Session failed to close due to remote exception
+W/InputManagerService( 1043): android.os.DeadObjectException
+W/InputManagerService( 1043): 	at android.os.BinderProxy.transact(Native Method)
+W/InputManagerService( 1043): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:346)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.finishSession(InputMethodManagerService.java:896)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:907)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:924)
+W/InputManagerService( 1043): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1069)
+W/InputManagerService( 1043): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1083)
+W/InputManagerService( 1043): 	at android.os.Handler.handleCallback(Handler.java:587)
+W/InputManagerService( 1043): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+W/InputManagerService( 1043): 	at android.os.Looper.loop(Looper.java:130)
+W/InputManagerService( 1043): 	at com.android.server.ServerThread.run(SystemServer.java:630)
+W/InputManagerService( 1043): Session failed to close due to remote exception
+W/InputManagerService( 1043): android.os.DeadObjectException
+W/InputManagerService( 1043): 	at android.os.BinderProxy.transact(Native Method)
+W/InputManagerService( 1043): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:346)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.finishSession(InputMethodManagerService.java:896)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:911)
+W/InputManagerService( 1043): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:924)
+W/InputManagerService( 1043): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1069)
+W/InputManagerService( 1043): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1083)
+W/InputManagerService( 1043): 	at android.os.Handler.handleCallback(Handler.java:587)
+W/InputManagerService( 1043): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+W/InputManagerService( 1043): 	at android.os.Looper.loop(Looper.java:130)
+W/InputManagerService( 1043): 	at com.android.server.ServerThread.run(SystemServer.java:630)
+I/ActivityManager( 1043): Start proc com.swype.android.inputmethod for service com.swype.android.inputmethod/.SwypeInputMethod: pid=11130 uid=10083 gids={}
+I/ActivityManager( 1043): Process com.ridecharge.android.taximagic (pid 8914) has died.
+I/ActivityManager( 1043): Process com.keramidas.TitaniumBackupPro (pid 10078) has died.
+I/ActivityManager( 1043): Process com.ceruleanstudios.trillian.android (pid 1726) has died.
+W/ActivityManager( 1043): Scheduling restart of crashed service com.ceruleanstudios.trillian.android/.TrillianService in 5000ms
+I/ActivityManager( 1043): Start proc com.ceruleanstudios.trillian.android for service com.ceruleanstudios.trillian.android/.TrillianService: pid=11213 uid=10078 gids={3003, 1015}
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@408b9e80
+D/WifiService( 1043): ACTION_SCREEN_OFF
+D/WifiService( 1043): setting ACTION_DEVICE_IDLE timer for 900000ms
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=apnSwitched interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=apnSwitched interfaceName=null networkType=1
+I/ActivityManager( 1043): Start proc com.google.android.gm for broadcast com.google.android.gm/.downloadprovider.DownloadReceiver: pid=11381 uid=10072 gids={3003, 1015}
+I/TelephonyRegistry( 1043): notifyServiceState: 1 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=null interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsDetached interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyServiceState: 1 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=null interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsAttached interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=false reason=gprsAttached interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=gprsAttached interfaceName=vsnet0 networkType=10
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): Start proc net.lp.collectionista for broadcast net.lp.collectionista/.versioncheck.VersioncheckBroadcastReceiver: pid=11686 uid=10114 gids={1015, 3003}
+I/ActivityManager( 1043): Start proc com.ridecharge.android.taximagic for broadcast com.ridecharge.android.taximagic/com.urbanairship.push.IntentReceiver: pid=11701 uid=10081 gids={3003, 1015}
+D/WifiService( 1043): got ACTION_DEVICE_IDLE
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): Start proc com.twitter.android for service com.twitter.android/.client.AppService: pid=11768 uid=10063 gids={3003}
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): Start proc com.google.android.apps.maps for service com.google.android.apps.maps/com.google.googlenav.prefetch.android.PrefetcherService: pid=11944 uid=10069 gids={3003, 1015}
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/ActivityManager( 1043): No longer want com.google.android.googlequicksearchbox (pid 15891): hidden #16
+I/ActivityManager( 1043): Start proc com.facebook.katana for service com.facebook.katana/.service.FacebookService: pid=12004 uid=10065 gids={3003, 1015}
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/ActivityManager( 1043): No longer want com.koushikdutta.rommanager (pid 9197): hidden #16
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarAppWidgetProvider: pid=12177 uid=10005 gids={3003}
+I/ActivityManager( 1043): No longer want com.android.vending (pid 15813): hidden #16
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): No longer want com.cyanogenmod.LGEServices (pid 4649): hidden #16
+W/ActivityManager( 1043): Scheduling restart of crashed service com.cyanogenmod.LGEServices/.LGEServices in 5000ms
+I/ActivityManager( 1043): Start proc com.cyanogenmod.LGEServices for service com.cyanogenmod.LGEServices/.LGEServices: pid=13141 uid=1000 gids={3002, 3001, 3003, 1015}
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=19 seq=55 themeResource=null}
+I/ActivityManager( 1043): Start proc com.android.deskclock for broadcast com.android.deskclock/.AlarmReceiver: pid=13884 uid=10050 gids={}
+W/BackupManagerService( 1043): dataChanged but no participant pkg='com.android.providers.settings' uid=10050
+D/StatusBarService( 1132): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 1043): Starting: Intent { flg=0x10040000 cmp=com.android.deskclock/.AlarmAlertFullScreen (has extras) } from pid -1
+I/ActivityManager( 1043): No longer want com.noshufou.android.su (pid 10104): hidden #16
+I/ActivityManager( 1043): Start proc com.fatsecret.android for broadcast com.fatsecret.android/.widget.CalorieWidgetProvider: pid=13901 uid=10115 gids={1006, 3003, 1015}
+I/ActivityManager( 1043): No longer want com.ceruleanstudios.trillian.android (pid 11213): hidden #16
+D/WifiService( 1043): ACTION_SCREEN_ON
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=dataDisabled interfaceName=null networkType=10
+D/WifiWatchdogService( 1043): (android.server.ServerThread) CienPesos (00:22:75:1a:90:2c) does not require the watchdog
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=56 themeResource=null}
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@407beed8}
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@407beed8}
+I/ActivityManager( 1043): No longer want com.google.android.apps.maps:NetworkLocationService (pid 2646): hidden #16
+I/ActivityManager( 1043): Starting: Intent { act=com.android.kineto.DISPLAY_ADDR_REM flg=0x10000000 cmp=com.android.kineto/.AddrRemPopup } from pid 1150
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=gprsDetached interfaceName=null networkType=0
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40964000
+W/ActivityManager( 1043): Scheduling restart of crashed service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService in 5000ms
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.fede.launcher/.Launcher } from pid 1043
+I/ActivityManager( 1043): No longer want com.ridecharge.android.taximagic (pid 11701): hidden #16
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  GPRS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=1
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.deskclock/.DeskClock } from pid 1161
+I/ActivityManager( 1043): Start proc com.google.android.apps.genie.geniewidget for content provider com.google.android.apps.genie.geniewidget/.providers.WeatherProvider: pid=14080 uid=10025 gids={3003, 1015}
+I/ActivityManager( 1043): Start proc com.google.android.apps.maps:NetworkLocationService for service com.google.android.apps.maps/com.google.android.location.internal.server.NetworkLocationService: pid=14094 uid=10069 gids={3003, 1015}
+I/ActivityManager( 1043): Starting: Intent { cmp=com.android.deskclock/.AlarmClock } from pid 13884
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@40981878}
+I/ActivityManager( 1043): Starting: Intent { cmp=com.android.deskclock/.SetAlarm (has extras) } from pid 13884
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@40981878}
+W/BackupManagerService( 1043): dataChanged but no participant pkg='com.android.providers.settings' uid=10050
+I/ActivityManager( 1043): Start proc com.ridecharge.android.taximagic for broadcast com.ridecharge.android.taximagic/com.urbanairship.push.IntentReceiver: pid=14184 uid=10081 gids={3003, 1015}
+I/ActivityManager( 1043): No longer want com.android.providers.calendar (pid 12177): hidden #16
+I/ActivityManager( 1043): Starting: Intent { flg=0x4000000 cmp=com.facebook.katana/.HomeActivity bnds=[0,461][480,557] (has extras) } from pid -1
+W/ActivityManager( 1043): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x4000000 cmp=com.facebook.katana/.HomeActivity bnds=[0,461][480,557] (has extras) }
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=apnSwitched interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=apnSwitched interfaceName=null networkType=1
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=19 seq=57 themeResource=null}
+W/ActivityManager( 1043): Activity pause timeout for HistoryRecord{409b0bf0 com.facebook.katana/.HomeActivity}
+W/InputManagerService( 1043): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4088f3d8 (uid=10065 pid=12004)
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@409572c0
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=apnSwitched interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=null interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=1
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=10
+W/ActivityManager( 1043): Activity pause timeout for HistoryRecord{409b0bf0 com.facebook.katana/.HomeActivity}
+W/BackupManagerService( 1043): dataChanged but no participant pkg='com.android.providers.settings' uid=10050
+D/StatusBarService( 1132): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 1043): Starting: Intent { flg=0x10040000 cmp=com.android.deskclock/.AlarmAlertFullScreen (has extras) } from pid -1
+W/InputManagerService( 1043): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4088f3d8 (uid=10065 pid=12004)
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=58 themeResource=null}
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.fede.launcher/.Launcher } from pid 1043
+W/InputManagerService( 1043): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4088f3d8 (uid=10065 pid=12004)
+I/ActivityManager( 1043): No longer want com.keramidas.TitaniumBackup (pid 15825): hidden #16
+I/WindowManager( 1043): WIN DEATH: Window{40a83c88 com.keramidas.TitaniumBackup/com.keramidas.TitaniumBackup.MainActivity paused=false}
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4073e038
+I/WindowManager( 1043): Setting rotation to 1, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=19 seq=59 themeResource=null}
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=60 themeResource=null}
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40733220
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.deskclock/.DeskClock } from pid 1161
+I/ActivityManager( 1043): Starting: Intent { cmp=com.android.deskclock/.AlarmClock } from pid 13884
+W/BackupManagerService( 1043): dataChanged but no participant pkg='com.android.providers.settings' uid=10050
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.fede.launcher/.Launcher } from pid 1043
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@408ac3a8
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40849dd8
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{NetworkLocationProvider type=2 binder=android.os.BinderProxy@409c63a0}
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=dataDisabled interfaceName=null networkType=10
+D/WifiWatchdogService( 1043): (android.server.ServerThread) CienPesos (00:22:75:1a:90:2c) does not require the watchdog
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{NetworkLocationProvider type=2 binder=android.os.BinderProxy@409c63a0}
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.koushikdutta.rommanager/.RomManager } from pid 1161
+I/ActivityManager( 1043): Start proc com.koushikdutta.rommanager for activity com.koushikdutta.rommanager/.RomManager: pid=14889 uid=10015 gids={1015, 3003}
+I/ActivityManager( 1043): Start proc com.android.vending for service com.android.vending/.billing.MarketBillingService: pid=14913 uid=10044 gids={1015, 3003}
+I/ActivityManager( 1043): No longer want com.cyanogenmod.ganoptimizer (pid 9048): hidden #16
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=19 seq=61 themeResource=null}
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=62 themeResource=null}
+I/ActivityManager( 1043): Start proc com.cyanogenmod.ganoptimizer for broadcast com.cyanogenmod.ganoptimizer/.GanStateReceiver: pid=14949 uid=10016 gids={}
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@408736e8}
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@408736e8}
+I/ActivityManager( 1043): No longer want com.ridecharge.android.taximagic (pid 14184): hidden #16
+I/ActivityManager( 1043): Starting: Intent { act=com.android.kineto.DISPLAY_ADDR_REM flg=0x10000000 cmp=com.android.kineto/.AddrRemPopup } from pid 1150
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40551c48
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=gprsDetached interfaceName=null networkType=0
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=19 seq=63 themeResource=null}
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  GPRS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=1
+I/ActivityManager( 1043): Starting: Intent { flg=0x14000000 cmp=com.koushikdutta.rommanager/.RomList (has extras) } from pid 14889
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=64 themeResource=null}
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=19 seq=65 themeResource=null}
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=66 themeResource=null}
+D/WifiService( 1043): ACTION_SCREEN_OFF
+D/WifiService( 1043): setting ACTION_DEVICE_IDLE timer for 900000ms
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=apnSwitched interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=apnSwitched interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=null interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsDetached interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=null interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsAttached interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=gprsAttached interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=gprsAttached interfaceName=vsnet0 networkType=10
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+W/WifiService( 1043): misformatted scan result for: 00:13:92:02:11:99	2437	164	[WPA-PSK-TKIP]	
+W/WifiService( 1043): misformatted scan result for: 00:13:92:02:11:99	2437	164	[WPA-PSK-TKIP]	
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+W/BackupManagerService( 1043): dataChanged but no participant pkg='com.android.providers.settings' uid=10050
+D/StatusBarService( 1132): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 1043): Starting: Intent { flg=0x10040000 cmp=com.android.deskclock/.AlarmAlertFullScreen (has extras) } from pid -1
+I/ActivityManager( 1043): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarAppWidgetProvider: pid=15210 uid=10005 gids={3003}
+I/ActivityManager( 1043): Start proc com.wsl.noom for broadcast com.wsl.noom/com.wsl.calorific.reminders.SystemAlarmReceiver: pid=15229 uid=10099 gids={3003, 1015, 3001, 3002}
+I/ActivityManager( 1043): No longer want net.lp.collectionista (pid 11686): hidden #16
+I/ActivityManager( 1043): No longer want com.twitter.android (pid 11768): hidden #16
+D/WifiService( 1043): ACTION_SCREEN_ON
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=19 seq=67 themeResource=null}
+W/BackupManagerService( 1043): dataChanged but no participant pkg='com.android.providers.settings' uid=10050
+D/WifiWatchdogService( 1043): (android.server.ServerThread) CienPesos (00:22:75:1a:90:2c) does not require the watchdog
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=dataDisabled interfaceName=null networkType=10
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@40ac8f78}
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@40ac8f78}
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=0
+I/ActivityManager( 1043): Starting: Intent { act=com.android.kineto.DISPLAY_ADDR_REM flg=0x10000000 cmp=com.android.kineto/.AddrRemPopup } from pid 1150
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=gprsDetached interfaceName=null networkType=0
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40a49700
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  GPRS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=1
+I/ActivityManager( 1043): Start proc com.ridecharge.android.taximagic for broadcast com.ridecharge.android.taximagic/com.urbanairship.push.IntentReceiver: pid=15402 uid=10081 gids={3003, 1015}
+I/ActivityManager( 1043): No longer want com.google.android.apps.maps (pid 11944): hidden #16
+D/WifiService( 1043): ACTION_SCREEN_OFF
+D/WifiService( 1043): setting ACTION_DEVICE_IDLE timer for 900000ms
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=apnSwitched interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=apnSwitched interfaceName=null networkType=1
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=null interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=apnSwitched interfaceName=vsnet0 networkType=10
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+W/WifiService( 1043): misformatted scan result for: 00:13:92:42:11:99	2437	165	[WPA-PSK-CCMP]	
+W/WifiService( 1043): misformatted scan result for: 00:13:92:42:11:99	2437	165	[WPA-PSK-CCMP]	
+W/BackupManagerService( 1043): dataChanged but no participant pkg='com.android.providers.settings' uid=10050
+D/StatusBarService( 1132): Notification has fullScreenIntent; sending fullScreenIntent
+I/ActivityManager( 1043): Starting: Intent { flg=0x10040000 cmp=com.android.deskclock/.AlarmAlertFullScreen (has extras) } from pid -1
+D/WifiService( 1043): ACTION_SCREEN_ON
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=68 themeResource=null}
+D/WifiWatchdogService( 1043): (android.server.ServerThread) CienPesos (00:22:75:1a:90:2c) does not require the watchdog
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=dataDisabled interfaceName=null networkType=10
+D/WifiService( 1043): acquireWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@40925320}
+D/WifiService( 1043): releaseWifiLockLocked: WifiLock{GanOptimizer type=3 binder=android.os.BinderProxy@40925320}
+I/ActivityManager( 1043): Starting: Intent { act=com.android.kineto.DISPLAY_ADDR_REM flg=0x10000000 cmp=com.android.kineto/.AddrRemPopup } from pid 1150
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40ba3fc8
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=gprsDetached interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 31026  GPRS CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=true reason=null interfaceName=null networkType=1
+D/WifiService( 1043): ACTION_SCREEN_OFF
+D/WifiService( 1043): setting ACTION_DEVICE_IDLE timer for 900000ms
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=apnSwitched interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=true reason=apnSwitched interfaceName=null networkType=1
+I/TelephonyRegistry( 1043): notifyServiceState: 1 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=null interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsDetached interfaceName=null networkType=0
+I/TelephonyRegistry( 1043): notifyServiceState: 1 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=null interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsAttached interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyDataConnection: state=1 isDataConnectivityPossible=false reason=gprsAttached interfaceName=null networkType=10
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=gprsAttached interfaceName=vsnet0 networkType=10
+I/TelephonyRegistry( 1043): notifyServiceState: 0 home T-Mobile T-Mobile 310260  EDGE CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1043): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=2
+I/ActivityManager( 1043): Start proc com.google.android.apps.maps for service com.google.android.apps.maps/com.google.googlenav.prefetch.android.PrefetcherService: pid=15892 uid=10069 gids={3003, 1015}
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/ActivityManager( 1043): No longer want com.google.android.apps.genie.geniewidget (pid 14080): hidden #16
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+D/WifiService( 1043): got ACTION_DEVICE_IDLE
+I/ActivityManager( 1043): Start proc net.lp.collectionista for broadcast net.lp.collectionista/.versioncheck.VersioncheckBroadcastReceiver: pid=15972 uid=10114 gids={1015, 3003}
+I/ActivityManager( 1043): No longer want com.facebook.katana (pid 12004): hidden #16
+I/WindowManager( 1043): WIN DEATH: Window{40882740 com.facebook.katana/com.facebook.katana.HomeActivity paused=false}
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+I/ActivityManager( 1043): Start proc com.twitter.android for service com.twitter.android/.client.AppService: pid=16099 uid=10063 gids={3003}
+I/ActivityManager( 1043): No longer want com.android.vending (pid 14913): hidden #16
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/WifiService( 1043): ACTION_BATTERY_CHANGED pluggedType: 0
+I/ActivityManager( 1043): Start proc com.facebook.katana for service com.facebook.katana/.service.FacebookService: pid=16217 uid=10065 gids={3003, 1015}
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+--------- beginning of /dev/log/main
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: DORMANT ==> SCANNING
+D/dalvikvm(16217): GC_CONCURRENT freed 485K, 46% free 3496K/6471K, external 4K/516K, paused 2ms+2ms
+I/wpa_supplicant(14807): Trying to associate with 00:22:75:1a:90:2c (SSID='CienPesos' freq=2412 MHz)
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:22:75:1a:90:2c
+V/WifiMonitor( 1043): Event [Trying to associate with 00:22:75:1a:90:2c (SSID='CienPesos' freq=2412 MHz)]
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:22:75:1a:90:2c]
+V/WifiStateTracker( 1043): Changing supplicant state: SCANNING ==> ASSOCIATING
+W/WifiService( 1043): misformatted scan result for: 00:13:92:42:11:99	2437	169	[WPA-PSK-CCMP]	
+W/WifiService( 1043): misformatted scan result for: 00:13:92:02:11:99	2437	168	[WPA-PSK-TKIP]	
+W/WifiService( 1043): misformatted scan result for: 00:13:92:42:11:99	2437	169	[WPA-PSK-CCMP]	
+W/WifiService( 1043): misformatted scan result for: 00:13:92:02:11:99	2437	168	[WPA-PSK-TKIP]	
+D/dalvikvm(16217): GC_CONCURRENT freed 480K, 47% free 3464K/6471K, external 4K/516K, paused 3ms+2ms
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=00:22:75:1a:90:2c
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=00:22:75:1a:90:2c]
+V/WifiStateTracker( 1043): Changing supplicant state: ASSOCIATING ==> ASSOCIATED
+I/wpa_supplicant(14807): Associated with 00:22:75:1a:90:2c
+V/WifiMonitor( 1043): Event [Associated with 00:22:75:1a:90:2c]
+I/EventLogService( 1200): Aggregate from 1312812952047 (log), 1312812952047 (data)
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: ASSOCIATED ==> FOUR_WAY_HANDSHAKE
+D/dalvikvm( 1200): GC_FOR_MALLOC freed 249K, 43% free 4087K/7111K, external 0K/512K, paused 49ms
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: FOUR_WAY_HANDSHAKE ==> FOUR_WAY_HANDSHAKE
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: FOUR_WAY_HANDSHAKE ==> GROUP_HANDSHAKE
+I/wpa_supplicant(14807): WPA: Key negotiation completed with 00:22:75:1a:90:2c [PTK=CCMP GTK=CCMP]
+V/WifiMonitor( 1043): Event [WPA: Key negotiation completed with 00:22:75:1a:90:2c [PTK=CCMP GTK=CCMP]]
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: GROUP_HANDSHAKE ==> COMPLETED
+I/wpa_supplicant(14807): CTRL-EVENT-CONNECTED - Connection to 00:22:75:1a:90:2c completed (reauth) [id=0 id_str=]
+V/WifiMonitor( 1043): Event [CTRL-EVENT-CONNECTED - Connection to 00:22:75:1a:90:2c completed (reauth) [id=0 id_str=]]
+V/WifiStateTracker( 1043): New network state is CONNECTED
+D/WifiStateTracker( 1043): DHCP renewal started
+D/dalvikvm(16217): GC_CONCURRENT freed 291K, 45% free 3561K/6471K, external 4K/516K, paused 2ms+4ms
+D/dalvikvm(16217): GC_FOR_MALLOC freed 214K, 46% free 3588K/6599K, external 4K/516K, paused 35ms
+I/dalvikvm-heap(16217): Grow heap (frag case) to 6.072MB for 164372-byte allocation
+D/dalvikvm(10858): GC_EXPLICIT freed 145K, 51% free 2928K/5959K, external 66K/512K, paused 42ms
+D/dalvikvm(16217): GC_FOR_MALLOC freed 80K, 46% free 3668K/6791K, external 4K/516K, paused 28ms
+D/dalvikvm(16217): GC_FOR_MALLOC freed 5K, 44% free 3812K/6791K, external 4K/516K, paused 28ms
+I/dalvikvm-heap(16217): Grow heap (frag case) to 6.249MB for 120332-byte allocation
+D/dalvikvm(16217): GC_FOR_MALLOC freed 0K, 44% free 3930K/6919K, external 4K/516K, paused 26ms
+D/dalvikvm(16217): GC_FOR_MALLOC freed <1K, 44% free 3930K/6919K, external 4K/516K, paused 17ms
+I/dalvikvm-heap(16217): Grow heap (frag case) to 6.306MB for 60174-byte allocation
+D/dalvikvm(16217): GC_FOR_MALLOC freed 0K, 43% free 3988K/6983K, external 4K/516K, paused 17ms
+D/dalvikvm(16217): GC_FOR_MALLOC freed 117K, 45% free 3871K/6983K, external 4K/516K, paused 17ms
+I/dalvikvm-heap(16217): Grow heap (frag case) to 6.421MB for 240648-byte allocation
+D/dalvikvm(16217): GC_FOR_MALLOC freed 0K, 44% free 4106K/7239K, external 4K/516K, paused 16ms
+D/dalvikvm(16217): GC_FOR_MALLOC freed <1K, 44% free 4106K/7239K, external 4K/516K, paused 16ms
+I/dalvikvm-heap(16217): Grow heap (frag case) to 6.536MB for 120332-byte allocation
+D/dalvikvm(16217): GC_FOR_MALLOC freed 0K, 43% free 4223K/7367K, external 4K/516K, paused 17ms
+D/dalvikvm(16217): GC_CONCURRENT freed 529K, 45% free 4091K/7367K, external 4K/516K, paused 3ms+2ms
+D/dalvikvm(16217): GC_CONCURRENT freed 303K, 44% free 4183K/7367K, external 4K/516K, paused 4ms+3ms
+D/dalvikvm(16217): GC_CONCURRENT freed 354K, 43% free 4225K/7367K, external 4K/516K, paused 2ms+4ms
+D/dalvikvm(16217): GC_CONCURRENT freed 354K, 43% free 4269K/7367K, external 4K/516K, paused 2ms+3ms
+D/dalvikvm(16217): GC_CONCURRENT freed 598K, 45% free 4081K/7367K, external 4K/516K, paused 2ms+3ms
+D/dalvikvm(16217): GC_CONCURRENT freed 778K, 49% free 3815K/7367K, external 14K/516K, paused 7ms+3ms
+D/dalvikvm(16217): GC_CONCURRENT freed 481K, 49% free 3825K/7367K, external 14K/516K, paused 2ms+4ms
+D/GoogleVoice(10791): call interceptor component name = ComponentInfo{com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.CallInterceptor}
+D/dalvikvm(13884): GC_EXPLICIT freed 221K, 49% free 3110K/6023K, external 1703K/2190K, paused 38ms
+D/dalvikvm(16217): GC_CONCURRENT freed 342K, 48% free 3881K/7367K, external 14K/516K, paused 1ms+2ms
+I/ActivityManager( 1043): No longer want com.wsl.noom (pid 15229): hidden #16
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/dalvikvm(10924): GC_EXPLICIT freed 115K, 50% free 3196K/6279K, external 0K/0K, paused 23ms
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/dalvikvm( 1581): GC_CONCURRENT freed 276K, 51% free 3080K/6215K, external 0K/0K, paused 1ms+19ms
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/AirMail (10611): keepalive read
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/dalvikvm(16217): GC_CONCURRENT freed 564K, 49% free 3829K/7367K, external 14K/516K, paused 3ms+4ms
+D/dalvikvm(16217): GC_CONCURRENT freed 626K, 52% free 3605K/7367K, external 4K/516K, paused 3ms+3ms
+E/dhcpcd  (16238): timed out
+E/WifiStateTracker( 1043): DHCP renewal failed: DHCP result was failed
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=8 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=8 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: COMPLETED ==> DORMANT
+D/WifiStateTracker( 1043): Reset connections and stopping DHCP
+I/wpa_supplicant(14807): CTRL-EVENT-DISCONNECTED - Disconnect event - remove keys
+V/WifiMonitor( 1043): Event [CTRL-EVENT-DISCONNECTED - Disconnect event - remove keys]
+D/dalvikvm(11381): GC_EXPLICIT freed 180K, 48% free 3326K/6279K, external 0K/0K, paused 25ms
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=-1 state=8 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=-1 state=8 BSSID=00:00:00:00:00:00]
+D/WifiStateTracker( 1043): Disabling interface
+I/Jni WCMLinkStatus ( 1150):  ssid: CienPesos MAC: 78:D6:F0:41:57:47  bssid: 00:22:75:1a:90:2c ipaddr: 192.168.2.6 connected: 0
+I/Jni WCMLinkStatus ( 1150): addr: Oxc0a80206
+V/WifiStateTracker( 1043): New network state is DISCONNECTED
+V/WifiStateTracker( 1043): Changing supplicant state: DORMANT ==> DORMANT
+E/ConnectivityService( 1043): Attempt to connect to WIFI failed.
+D/Tethering( 1043): MasterInitialState.processMessage what=3
+D/AGPS    ( 1043): lge_ril_update_network_state: ver = M6600A-SCAUTNZ-2.0.9720T  1  [MAR 27 2011 10:00:00] MP:TRULGE_08.09.02R_MDM
+D/AGPS    ( 1043): lge_ril_update_network_state: ip = 26.197.4.81
+D/AGPS    ( 1043): lge_ril_update_network_state: apn undefined, type - wifi DISCONNECTED. 
+D/AGPS    ( 1043): lge_ril_update_network_state, ip = disconnected
+D/AGPS    ( 1043): lge_ril_update_network_state, dns1 = disconnected
+D/AGPS    ( 1043): lge_ril_update_network_state, dns2 = disconnected
+D/CMStats ( 8834): CONNECTIVITY_ACTION: noConnectivity = false
+D/Tethering( 1043): MasterInitialState.processMessage what=3
+D/GTalkService( 1200): [GTalkConnection.1] ### networkStateChanged: detected duplicate network broadcast ( 0/CONNECTED), do nothing
+D/AGPS    ( 1043): lge_ril_update_network_state: ver = M6600A-SCAUTNZ-2.0.9720T  1  [MAR 27 2011 10:00:00] MP:TRULGE_08.09.02R_MDM
+D/AGPS    ( 1043): lge_ril_update_network_state: ip = 26.197.4.81
+D/AGPS    ( 1043): lge_ril_update_network_state: apn epc.tmobile.com, type - mobile CONNECTED. 
+D/AGPS    ( 1043): lge_ril_update_network_state, ip = 26.197.4.81
+D/AGPS    ( 1043): lge_ril_update_network_state, dns1 = 10.177.0.34
+D/AGPS    ( 1043): lge_ril_update_network_state, dns2 = 10.177.0.34
+I/MediaUploader( 8845): No need to wake up
+W/GooglePlusOne(10924): ImageManagerBroadcastReceiver calling ImageManager.clearErrors
+I/AirMail (10611): Connectivity changed: connected=true, network type=mobile
+I/AirMail (10611): Connectivity changed: connected=true, network type=mobile
+D/Beautiful Widgets(10858): CONNECTIVITY_CHANGE
+D/MediaUploader(10924): PhoneStateBroadcastReceiver.onReceive: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000000 cmp=com.google.android.apps.plus/com.google.android.apps.uploader.PhoneStateBroadcastReceiver (has extras) }
+D/MediaUploader(10924): Wifi diconnected
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/CMStats ( 8834): CONNECTIVITY_ACTION: noConnectivity = false
+D/GoogleVoice(10791): MASFUpdateSettingsRpc.createRequestPayload: ENT
+D/GoogleVoice(10791): MASFUpdateSettingsRpc.createRequestPayload: RET
+I/MediaUploader( 8845): No need to wake up
+I/System.out(10791): [INFO:30663856]: LogSource: Running flush
+D/Beautiful Widgets(10858): CONNECTIVITY_CHANGE
+D/dalvikvm( 1043): GC_EXPLICIT freed 893K, 40% free 7372K/12231K, external 4208K/5078K, paused 64ms
+D/MediaUploader(10924): PhoneStateBroadcastReceiver.onReceive: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000000 cmp=com.google.android.apps.plus/com.google.android.apps.uploader.PhoneStateBroadcastReceiver (has extras) }
+D/MediaUploader(10924): Mobile connected
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/MediaUploader(10924): UploadService.onHandleIntent: Intent { act=com.google.android.apps.uploader.action.UPLOAD_WAKEUP cmp=com.google.android.apps.plus/com.google.android.apps.uploader.UploadService }
+I/RealTimeChat(10924): Connecting to backend for gjtorikian@gmail.com
+D/MediaUploader(10924): UploadsQueue.getAllPending: elapsed msec=3
+D/MediaUploader(10924): UploadsQueue.getAllPending: elapsed msec=6
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/dalvikvm(16217): GC_CONCURRENT freed 445K, 51% free 3619K/7367K, external 4K/516K, paused 2ms+2ms
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=-1 state=2 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: DORMANT ==> SCANNING
+D/dalvikvm(16217): GC_CONCURRENT freed 476K, 51% free 3654K/7367K, external 4K/516K, paused 1ms+2ms
+D/dalvikvm(16217): GC_CONCURRENT freed 416K, 51% free 3656K/7367K, external 4K/516K, paused 3ms+12ms
+D/dalvikvm(16217): GC_CONCURRENT freed 453K, 51% free 3664K/7367K, external 4K/516K, paused 2ms+2ms
+I/wpa_supplicant(14807): Trying to associate with 00:22:75:1a:90:2c (SSID='CienPesos' freq=2412 MHz)
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:22:75:1a:90:2c
+V/WifiMonitor( 1043): Event [Trying to associate with 00:22:75:1a:90:2c (SSID='CienPesos' freq=2412 MHz)]
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=-1 state=3 BSSID=00:22:75:1a:90:2c]
+V/WifiStateTracker( 1043): Changing supplicant state: SCANNING ==> ASSOCIATING
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=00:22:75:1a:90:2c
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=4 BSSID=00:22:75:1a:90:2c]
+V/WifiStateTracker( 1043): Changing supplicant state: ASSOCIATING ==> ASSOCIATED
+I/wpa_supplicant(14807): Associated with 00:22:75:1a:90:2c
+V/WifiMonitor( 1043): Event [Associated with 00:22:75:1a:90:2c]
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: ASSOCIATED ==> FOUR_WAY_HANDSHAKE
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=5 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: FOUR_WAY_HANDSHAKE ==> FOUR_WAY_HANDSHAKE
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=6 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: FOUR_WAY_HANDSHAKE ==> GROUP_HANDSHAKE
+I/wpa_supplicant(14807): WPA: Key negotiation completed with 00:22:75:1a:90:2c [PTK=CCMP GTK=CCMP]
+V/WifiMonitor( 1043): Event [WPA: Key negotiation completed with 00:22:75:1a:90:2c [PTK=CCMP GTK=CCMP]]
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=00:00:00:00:00:00
+V/WifiMonitor( 1043): Event [CTRL-EVENT-STATE-CHANGE id=0 state=7 BSSID=00:00:00:00:00:00]
+V/WifiStateTracker( 1043): Changing supplicant state: GROUP_HANDSHAKE ==> COMPLETED
+I/wpa_supplicant(14807): CTRL-EVENT-CONNECTED - Connection to 00:22:75:1a:90:2c completed (reauth) [id=0 id_str=]
+V/WifiMonitor( 1043): Event [CTRL-EVENT-CONNECTED - Connection to 00:22:75:1a:90:2c completed (reauth) [id=0 id_str=]]
+V/WifiStateTracker( 1043): New network state is CONNECTED
+D/WifiStateTracker( 1043): DHCP renewal started
+I/System.out(10791): [INFO:30668856]: LogSource: Running delayed flush
+I/System.out(10791): [INFO:30668868]: LogSource: Running flush
+D/dalvikvm(14949): GC_EXPLICIT freed 13K, 51% free 2688K/5379K, external 0K/0K, paused 75ms
+I/System.out(10791): [INFO:30673869]: LogSource: Running delayed flush
+I/System.out(10791): [INFO:30673881]: LogSource: Running flush
+D/dalvikvm( 1581): GC_EXPLICIT freed 262K, 51% free 3066K/6215K, external 0K/0K, paused 87ms
+I/System.out(10791): [INFO:30678883]: LogSource: Running delayed flush
+I/System.out(10791): [INFO:30678895]: LogSource: Running flush
+I/RealTimeChat(10924): Sending ping to bunch
+D/dalvikvm( 8834): GC_EXPLICIT freed 55K, 51% free 2683K/5379K, external 0K/0K, paused 32ms
+I/System.out(10791): [INFO:30683896]: LogSource: Running delayed flush
+I/System.out(10791): [INFO:30683908]: LogSource: Running flush
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/AirMail (10611): keepalive read
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/KeyguardViewMediator( 1043): wakeWhenReadyLocked(26)
+I/power   ( 1043): *** set_screen_state 1
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/WifiService( 1043): ACTION_SCREEN_ON
+I/vsnet   (16374): IP address for cid=1 is 26.197.4.81 
+D/        (  980): NVRM_DAEMON(1124): pm_notifier_thread: calling power_displays(true)
+I/vsnet   (16375): Starting vsnet0 for cid=1 
+I/vsnet   (16378): Default gateway for vsnet0 is 26.197.4.81 
+I/vsnet   (16380): ifconfig for vsnet0 finished successfully 
+D/        (  980): Auto config value = 0
+D/        (  980): [PL] NvOdmDispDevicePowerLevel_On
+D/        (  980): ONE SHOT MODE is enabled now !!! 
+D/        (  980): [PL] hitachi_cpu480X800_SetBacklight intensity1 =0
+D/        (  980): Auto config value = 0
+D/        (  980): [PL] hitachi_cpu480X800_SetBacklight intensity1 =102
+D/        (  980): [BL] Display_On buf =1
+D/        (  980): 
+D/        (  980): NVRM_DAEMON(1127): pm_notifier_thread: returned from power_displays(true)
+D/dalvikvm( 1149): GC_CONCURRENT freed 419K, 49% free 3142K/6087K, external 0K/0K, paused 3ms+4ms
+I/JNI     ( 1150): com_android_kineto_post_rssi_event Enter 
+D/SettingsAppWidgetProvider( 8698): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 8698): No instances yet... Wait for at least one instance to exist before adding global settings
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40b396a8
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 549K, 49% free 3277K/6407K, external 1579K/1657K, paused 26ms
+I/wpa_supplicant(14807): CTRL-EVENT-TERMINATING - signal 15 received
+I/wpa_supplicant(14807): CTRL-EVENT-TERMINATING - signal 0 received
+V/WifiMonitor( 1043): Event [CTRL-EVENT-TERMINATING - signal 15 received]
+D/SettingsAppWidgetProvider( 8698): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 8698): No instances yet... Wait for at least one instance to exist before adding global settings
+I/wpa_supplicant(14807): CTRL-EVENT-STATE-CHANGE id=0 state=0 BSSID=00:00:00:00:00:00
+D/Beautiful Widgets(10858): WIFI_STATE_CHANGED_ACTION
+D/        (  980): set continue (1280x960)
+D/        (  980): set continue (1280x1024)
+D/        (  980): set continue (1280x1024)
+D/        (  980): set continue (1360x768)
+D/        (  980): set continue (1440x900)
+D/        (  980): set continue (1680x1050)
+I/WindowManager( 1043): Setting rotation to 3, animFlags=0
+D/        (  980): set BetterMode (1280x720)
+D/        (  980): set BetterMode (1920x1080)
+D/        (  980): set BetterMode (1280x720)
+D/        (  980): set BetterMode (1920x1080)
+D/        (  980): set BetterMode (1920x1080)
+D/        (  980): set BetterMode (1920x1080)
+D/        (  980): set BetterMode (1920x1080)
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=19 seq=69 themeResource=null}
+D/CounterApplication(13901): APP Configuration changed
+I/PowerWidget( 1132): Clearing any old widget stuffs
+I/PowerWidget( 1132): Setting up widget
+I/PowerWidget( 1132): Button list: toggleWifi|toggleSound|toggleBrightness
+I/PowerWidget( 1132): Setting up button: toggleWifi
+I/PowerWidget( 1132): Setting up button: toggleSound
+I/PowerWidget( 1132): Setting up button: toggleBrightness
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 116K, 51% free 3195K/6407K, external 1885K/2038K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 52K, 51% free 3144K/6407K, external 2060K/2143K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 4K, 51% free 3144K/6407K, external 2060K/2266K, paused 35ms
+D/WifiStateTracker( 1043): Reset connections and stopping DHCP
+V/WifiStateTracker( 1043): Connection to supplicant lost
+I/Jni WCMLinkStatus ( 1150):  ssid: CienPesos MAC: 78:D6:F0:41:57:47  bssid: 00:22:75:1a:90:2c ipaddr: 192.168.2.6 connected: 0
+I/Jni WCMLinkStatus ( 1150): addr: Oxc0a80206
+D/Tethering( 1043): MasterInitialState.processMessage what=3
+D/CMStats ( 8834): CONNECTIVITY_ACTION: noConnectivity = false
+I/MediaUploader( 8845): No need to wake up
+D/Tethering( 1043): MasterInitialState.processMessage what=3
+D/Beautiful Widgets(10858): CONNECTIVITY_CHANGE
+D/GTalkService( 1200): [GTalkConnection.1] ### networkStateChanged: detected duplicate network broadcast ( 0/CONNECTED), do nothing
+W/GooglePlusOne(10924): ImageManagerBroadcastReceiver calling ImageManager.clearErrors
+D/MediaUploader(10924): PhoneStateBroadcastReceiver.onReceive: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000000 cmp=com.google.android.apps.plus/com.google.android.apps.uploader.PhoneStateBroadcastReceiver (has extras) }
+D/MediaUploader(10924): Wifi diconnected
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/CMStats ( 8834): CONNECTIVITY_ACTION: noConnectivity = false
+I/MediaUploader( 8845): No need to wake up
+D/Beautiful Widgets(10858): CONNECTIVITY_CHANGE
+D/MediaUploader(10924): PhoneStateBroadcastReceiver.onReceive: Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x10000000 cmp=com.google.android.apps.plus/com.google.android.apps.uploader.PhoneStateBroadcastReceiver (has extras) }
+D/MediaUploader(10924): Mobile connected
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/AGPS    ( 1043): lge_ril_update_network_state: ver = M6600A-SCAUTNZ-2.0.9720T  1  [MAR 27 2011 10:00:00] MP:TRULGE_08.09.02R_MDM
+D/AGPS    ( 1043): lge_ril_update_network_state: ip = 26.197.4.81
+D/AGPS    ( 1043): lge_ril_update_network_state: apn undefined, type - wifi DISCONNECTED. 
+D/AGPS    ( 1043): lge_ril_update_network_state, ip = disconnected
+D/AGPS    ( 1043): lge_ril_update_network_state, dns1 = disconnected
+D/AGPS    ( 1043): lge_ril_update_network_state, dns2 = disconnected
+I/RealTimeChat(10924): Connecting to backend for gjtorikian@gmail.com
+I/AirMail (10611): Connectivity changed: connected=true, network type=mobile
+I/AirMail (10611): Connectivity changed: connected=true, network type=mobile
+D/AGPS    ( 1043): lge_ril_update_network_state: ver = M6600A-SCAUTNZ-2.0.9720T  1  [MAR 27 2011 10:00:00] MP:TRULGE_08.09.02R_MDM
+D/AGPS    ( 1043): lge_ril_update_network_state: ip = 26.197.4.81
+D/AGPS    ( 1043): lge_ril_update_network_state: apn epc.tmobile.com, type - mobile CONNECTED. 
+D/AGPS    ( 1043): lge_ril_update_network_state, ip = 26.197.4.81
+D/AGPS    ( 1043): lge_ril_update_network_state, dns1 = 10.177.0.34
+D/AGPS    ( 1043): lge_ril_update_network_state, dns2 = 10.177.0.34
+D/MediaUploader(10924): UploadService.onHandleIntent: Intent { act=com.google.android.apps.uploader.action.UPLOAD_WAKEUP cmp=com.google.android.apps.plus/com.google.android.apps.uploader.UploadService }
+D/MediaUploader(10924): UploadsQueue.getAllPending: elapsed msec=4
+D/MediaUploader(10924): UploadsQueue.getAllPending: elapsed msec=4
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/dalvikvm( 8871): GC_CONCURRENT freed 349K, 50% free 2963K/5831K, external 0K/0K, paused 2ms+2ms
+D/WifiStateTracker( 1043): Disabling interface
+E/Tethering( 1043): attempting to remove unknown iface (wlan0), ignoring
+D/dalvikvm( 1043): GC_EXPLICIT freed 847K, 41% free 7282K/12231K, external 4652K/5078K, paused 97ms
+E/WifiStateTracker( 1043): DHCP renewal failed: DHCP result was failed
+I/Jni WCMLinkStatus ( 1150):  ssid: CienPesos MAC: 78:D6:F0:41:57:47  bssid: 00:22:75:1a:90:2c ipaddr: 192.168.2.6 connected: 0
+I/Jni WCMLinkStatus ( 1150): addr: Oxc0a80206
+D/SettingsAppWidgetProvider( 8698): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 8698): No instances yet... Wait for at least one instance to exist before adding global settings
+D/Beautiful Widgets(10858): WIFI_STATE_CHANGED_ACTION
+D/AGPS    ( 1043): lge_gps_inject_location START 
+I/System.out( 1200): [INFO:47287611]: LogSource: Running flush
+I/System.out( 1200): [INFO:47287613]: LogSource: Sending payload [bytes=2695]
+D/dalvikvm(13901): GC_EXPLICIT freed 3K, 49% free 2820K/5447K, external 0K/0K, paused 29ms
+I/System.out( 1200): [INFO:47292613]: LogSource: Running delayed flush
+I/System.out( 1200): [INFO:47292626]: LogSource: Running flush
+I/System.out( 1200): [INFO:47292628]: LogSource: Sending payload [bytes=2695]
+I/System.out( 1200): [INFO:47297628]: LogSource: Running delayed flush
+I/System.out( 1200): [INFO:47297638]: LogSource: Running flush
+I/System.out( 1200): [INFO:47297640]: LogSource: Sending payload [bytes=2695]
+D/dalvikvm(14094): GC_EXPLICIT freed 128K, 48% free 3677K/6983K, external 0K/0K, paused 50ms
+D/dalvikvm( 1200): GC_CONCURRENT freed 496K, 43% free 4102K/7111K, external 0K/512K, paused 4ms+5ms
+D/dalvikvm( 1200): GC_CONCURRENT freed 520K, 43% free 4094K/7111K, external 0K/512K, paused 2ms+3ms
+D/dalvikvm( 1200): GC_CONCURRENT freed 501K, 43% free 4104K/7111K, external 0K/512K, paused 4ms+3ms
+I/System.out( 1200): [INFO:47299827]: LogSource: Response [http=200,length=20]
+I/System.out( 1200): [INFO:47299829]: LogSource: Read id 5, status code 200
+W/LocationMasfClient( 1200): uploadCollectionReport(): no ReplyElement
+I/System.out( 1200): [INFO:47300585]: LogSource: Response [http=200,length=20]
+I/System.out( 1200): [INFO:47300587]: LogSource: Read id 5, status code 200
+I/System.out( 1200): [INFO:47300875]: LogSource: Response [http=200,length=20]
+I/System.out( 1200): [INFO:47300876]: LogSource: Read id 5, status code 200
+D/dalvikvm( 1200): GC_CONCURRENT freed 427K, 43% free 4065K/7111K, external 0K/512K, paused 4ms+3ms
+D/dalvikvm( 8698): GC_EXPLICIT freed 12K, 49% free 2818K/5447K, external 0K/0K, paused 59ms
+D/dalvikvm( 8845): GC_EXPLICIT freed 65K, 50% free 2708K/5379K, external 0K/0K, paused 81ms
+D/dalvikvm( 8871): GC_EXPLICIT freed 202K, 53% free 2785K/5831K, external 0K/0K, paused 79ms
+D/dalvikvm(15892): GC_EXPLICIT freed 203K, 41% free 3894K/6599K, external 0K/0K, paused 88ms
+D/dalvikvm(10791): GC_EXPLICIT freed 286K, 47% free 3537K/6599K, external 148K/530K, paused 86ms
+D/dalvikvm(10791): GC_CONCURRENT freed 484K, 46% free 3564K/6599K, external 148K/530K, paused 3ms+2ms
+W/KeyCharacterMap( 1132): Can't open keycharmap file
+W/KeyCharacterMap( 1132): Error loading keycharmap file '/system/usr/keychars/nvodm_touch.kcm.bin'. hw.keyboards.65541.devname='nvodm_touch'
+W/KeyCharacterMap( 1132): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4083e498
+D/dalvikvm(10858): GC_EXPLICIT freed 378K, 51% free 2931K/5959K, external 198K/512K, paused 82ms
+D/dalvikvm(13884): GC_EXPLICIT freed 75K, 50% free 3069K/6023K, external 1703K/2190K, paused 38ms
+V/NotificationService( 1043): Active profile: Default
+I/PROFILE ( 1043): Group: Gmail containing : android : false
+I/PROFILE ( 1043): Group: Phone containing : android : false
+I/PROFILE ( 1043): Group: Calendar containing : android : false
+I/PROFILE ( 1043): Group: Email containing : android : false
+I/PROFILE ( 1043): Group: SMS containing : android : false
+V/ProfileManager( 1043): No active group, returning default: Other
+V/NotificationService( 1043): Pkg: android group: Other
+D/MediaUploader(10924): PhoneStateBroadcastReceiver.onReceive: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000000 (has extras) }
+D/MediaUploader(10924): Battery change, level - 29; plugged in - false
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/MediaUploader(10924): UploadService.onHandleIntent: Intent { act=com.google.android.apps.uploader.action.UPLOAD_WAKEUP cmp=com.google.android.apps.plus/com.google.android.apps.uploader.UploadService }
+D/MediaUploader(10924): UploadsQueue.getAllPending: elapsed msec=3
+D/MediaUploader(10924): UploadsQueue.getAllPending: elapsed msec=3
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/dalvikvm(10924): GC_EXPLICIT freed 122K, 50% free 3200K/6279K, external 0K/0K, paused 83ms
+I/System.out(10791): [INFO:30954023]: LogSource: Sending payload [bytes=700]
+D/dalvikvm(10791): GC_CONCURRENT freed 496K, 46% free 3580K/6599K, external 148K/530K, paused 3ms+4ms
+D/dalvikvm(10791): GC_CONCURRENT freed 504K, 46% free 3587K/6599K, external 148K/530K, paused 3ms+3ms
+D/dalvikvm(10791): GC_CONCURRENT freed 536K, 47% free 3562K/6599K, external 148K/530K, paused 2ms+2ms
+I/System.out(10791): [INFO:30958180]: LogSource: Response [http=200,length=507]
+I/System.out(10791): [INFO:30958199]: LogSource: Sending payload [bytes=700]
+D/dalvikvm(10791): GC_CONCURRENT freed 323K, 46% free 3627K/6599K, external 148K/530K, paused 3ms+4ms
+I/System.out(10791): [INFO:30958419]: LogSource: Read id 61, status code 200
+I/System.out(10791): [INFO:30958420]: LogSource: Read id 62, status code 200
+I/System.out(10791): [INFO:30958659]: LogSource: Response [http=200,length=507]
+I/System.out(10791): [INFO:30958660]: LogSource: Sending payload [bytes=700]
+I/System.out(10791): [INFO:30959368]: LogSource: Response [http=200,length=507]
+I/System.out(10791): [INFO:30959369]: LogSource: Sending payload [bytes=700]
+D/GoogleVoice(10791): call interceptor component name = ComponentInfo{com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.CallInterceptor}
+I/power   ( 1043): *** set_screen_state 0
+D/        (  980): NVRM_DAEMON(1118): pm_notifier_thread: calling power_displays(false)
+D/        (  980): [PL] hitachi_cpu480X800_SetBacklight intensity1 =0
+D/        (  980): [BL] Display_Off buf =0
+D/        (  980): 
+D/        (  980): [PL] NvOdmDispDevicePowerLevel_Suspend
+D/        (  980): [BKL] hitachipanel_BacklightRelease
+D/        (  980): [BL] Display_Off buf =0
+D/        (  980): 
+D/        (  980): NVRM_DAEMON(1121): pm_notifier_thread: returned from power_displays(false)
+W/IInputConnectionWrapper(14889): getExtractedText on inactive InputConnection
+W/IInputConnectionWrapper(14889): getExtractedText on inactive InputConnection
+W/IInputConnectionWrapper(14889): getExtractedText on inactive InputConnection
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+W/IInputConnectionWrapper(14889): getExtractedText on inactive InputConnection
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/dalvikvm( 1043): GC_EXTERNAL_ALLOC freed 282K, 41% free 7253K/12231K, external 2079K/2105K, paused 97ms
+D/dalvikvm( 1043): GC_EXTERNAL_ALLOC freed 33K, 41% free 7233K/12231K, external 2449K/2666K, paused 93ms
+D/dalvikvm( 1043): GC_EXTERNAL_ALLOC freed 4K, 41% free 7237K/12231K, external 3446K/3564K, paused 62ms
+D/dalvikvm( 1043): GC_EXTERNAL_ALLOC freed 7K, 41% free 7239K/12231K, external 4620K/4809K, paused 57ms
+W/IInputConnectionWrapper(14889): getExtractedText on inactive InputConnection
+W/IInputConnectionWrapper(14889): getExtractedText on inactive InputConnection
+W/IInputConnectionWrapper(14889): getExtractedText on inactive InputConnection
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+W/IInputConnectionWrapper(14889): getExtractedText on inactive InputConnection
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/AirMail (10611): keepalive read
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+I/Gmail   (11381): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 546810, normalSync: true
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/dalvikvm(11381): GC_CONCURRENT freed 457K, 48% free 3318K/6279K, external 0K/0K, paused 3ms+2ms
+D/dalvikvm(11381): GC_CONCURRENT freed 475K, 48% free 3296K/6279K, external 0K/0K, paused 2ms+2ms
+D/dalvikvm(11381): GC_CONCURRENT freed 385K, 48% free 3308K/6279K, external 0K/0K, paused 2ms+4ms
+D/dalvikvm(11381): GC_EXPLICIT freed 382K, 48% free 3280K/6279K, external 0K/0K, paused 40ms
+I/Gmail   (11381): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 546849, normalSync: true
+D/dalvikvm(14094): GC_EXPLICIT freed 28K, 48% free 3651K/6983K, external 0K/0K, paused 39ms
+D/dalvikvm(11381): GC_FOR_MALLOC freed 58K, 47% free 3380K/6279K, external 0K/0K, paused 27ms
+D/Gmail   (11381): Inserting message 1376586778194423927. synced=true
+D/dalvikvm(11381): GC_EXPLICIT freed 186K, 48% free 3287K/6279K, external 0K/0K, paused 38ms
+I/Gmail   (11381): getStartSyncRequest: handledServerOpId: 546852, upperFetchedConvoId: 1375108412711370752, lowerFetchedConvoId: 0, ackedClientOp: 228
+D/dalvikvm(10858): GC_EXPLICIT freed 29K, 51% free 2928K/5959K, external 0K/512K, paused 86ms
+D/dalvikvm(13884): GC_EXPLICIT freed 19K, 50% free 3068K/6023K, external 1703K/2190K, paused 57ms
+I/Gmail   (11381): checkLabelsSets changed the label sets to: included([^^out, ^r]), partial([^i, ^f, ^iim]), all([my-big-mail, sent-messages, events, [imap]-drafts, ^iim, ^all, ^io_im, ^sps, ^act, joyce, ^urg_2, ^urg_1, facebook, me, doc-levity, ^i, ^g, my-really-big-mail, ^f, ^vm, ^rr, ^k, my-ultra-big-mail, ^ig, cs, ^b, project, ^urg_5, ^urg_4, ^urg_3, ^p, chatlabels, ^o, ^t, ^u, ^punsub, marifer, ^r, ^unsub, bills, ^s])
+D/dalvikvm(11381): GC_EXPLICIT freed 218K, 48% free 3280K/6279K, external 0K/0K, paused 33ms
+I/Gmail   (11381): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 546852, normalSync: true
+I/Gmail   (11381): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://gmail-ls/unread/^i (has extras) }
+V/NotificationService( 1043): Active profile: Default
+I/PROFILE ( 1043): Group: Gmail containing : com.google.android.gm : true
+V/NotificationService( 1043): Pkg: com.google.android.gm group: Gmail
+I/Gmail   (11381): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 546852, normalSync: true
+D/dalvikvm(11381): GC_EXPLICIT freed 98K, 48% free 3301K/6279K, external 0K/0K, paused 39ms
+I/Gmail   (11381): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 546858, normalSync: true
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/AirMail (10611): keepalive read
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+I/AirMail (10611): Service started with intent=Intent { act=com.urbanairship.airmail.HEARTBEAT flg=0x4 cmp=com.urbanairship.airmail/.AirMailService (has extras) }
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/AirMail (10611): ** HB - AirMailService started: true
+D/AirMail (10611): ** HB - threadRunning: true
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/AirMail (10611): keepalive read
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+D/AirMail (10611): keepalive read
+D/        (  980): NVRM_DAEMON(1109): pm_notifier_thread: calling power NvddkAudioFxSuspend(true)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+E/lwip_get_socket_timeout:( 1150): sock == NULL this is really bad and odd
+D/        (  980): NVRM_DAEMON(1114): pm_notifier_thread: calling power NvddkAudioFxSuspend(false)
+D/        (  980): @@(Audiofx_transport)@@   NvAudioFxDriverSuspend()  	  CHR_TEST!! 
+I/power   ( 1043): *** set_screen_state 1
+D/        (  980): NVRM_DAEMON(1124): pm_notifier_thread: calling power_displays(true)
+D/SettingsAppWidgetProvider( 8698): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 8698): No instances yet... Wait for at least one instance to exist before adding global settings
+D/MediaUploader(10924): PhoneStateBroadcastReceiver.onReceive: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000000 (has extras) }
+D/MediaUploader(10924): Battery change, level - 29; plugged in - true
+D/dalvikvm( 1043): GC_EXTERNAL_ALLOC freed 615K, 41% free 7336K/12231K, external 5025K/5173K, paused 101ms
+V/NotificationService( 1043): Active profile: Default
+I/PROFILE ( 1043): Group: Gmail containing : android : false
+I/PROFILE ( 1043): Group: Phone containing : android : false
+I/PROFILE ( 1043): Group: Calendar containing : android : false
+I/PROFILE ( 1043): Group: Email containing : android : false
+I/PROFILE ( 1043): Group: SMS containing : android : false
+V/ProfileManager( 1043): No active group, returning default: Other
+V/NotificationService( 1043): Pkg: android group: Other
+D/Beautiful Widgets(10858): Battery plugged
+D/        (  980): Auto config value = 0
+D/        (  980): [PL] NvOdmDispDevicePowerLevel_On
+I/vsnet   (16561): IP address for cid=1 is 26.197.4.81 
+I/vsnet   (16562): Starting vsnet0 for cid=1 
+D/MediaUploader(10924): updateQueueState: RUNNING
+I/vsnet   (16565): Default gateway for vsnet0 is 26.197.4.81 
+I/vsnet   (16567): ifconfig for vsnet0 finished successfully 
+D/MediaUploader(10924): UploadService.onHandleIntent: Intent { act=com.google.android.apps.uploader.action.UPLOAD_WAKEUP cmp=com.google.android.apps.plus/com.google.android.apps.uploader.UploadService }
+D/        (  980): ONE SHOT MODE is enabled now !!! 
+D/        (  980): [PL] hitachi_cpu480X800_SetBacklight intensity1 =0
+D/MediaUploader(10924): UploadsQueue.getAllPending: elapsed msec=44
+D/MediaUploader(10924): UploadsQueue.getAllPending: elapsed msec=3
+D/MediaUploader(10924): updateQueueState: RUNNING
+D/        (  980): Auto config value = 0
+D/        (  980): [PL] hitachi_cpu480X800_SetBacklight intensity1 =102
+D/        (  980): [BL] Display_On buf =1
+D/        (  980): 
+D/        (  980): NVRM_DAEMON(1127): pm_notifier_thread: returned from power_displays(true)
+D/Tethering( 1043): sendTetherStateChangedBroadcast 1, 0, 0
+D/Tethering( 1043): interfaceAdded :usb0
+V/NotificationService( 1043): Active profile: Default
+I/PROFILE ( 1043): Group: Gmail containing : android : false
+I/PROFILE ( 1043): Group: Phone containing : android : false
+I/PROFILE ( 1043): Group: Calendar containing : android : false
+I/PROFILE ( 1043): Group: Email containing : android : false
+I/PROFILE ( 1043): Group: SMS containing : android : false
+V/ProfileManager( 1043): No active group, returning default: Other
+V/NotificationService( 1043): Pkg: android group: Other
+D/Vold    (  971): USB connected
+D/Vold    (  971): Share method ums now available
+D/BluetoothNetworkService( 1043): updating tether state
+D/BluetoothNetworkService( 1043): interface usb0
+I/StorageNotification( 1132): UMS connection changed to true (media state mounted)
+V/NotificationService( 1043): Active profile: Default
+I/PROFILE ( 1043): Group: Gmail containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Phone containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Calendar containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Email containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: SMS containing : com.android.systemui : false
+V/ProfileManager( 1043): No active group, returning default: Other
+V/NotificationService( 1043): Pkg: com.android.systemui group: Other
+W/Vold    (  971): Ignoring unknown switch 'usb_mass_storage'
+D/Vold    (  971): USB connected
+E/Tethering( 1043): active iface (usb0) reported as added, ignoring
+D/        (  980): set continue (1280x960)
+D/        (  980): set continue (1280x1024)
+D/        (  980): set continue (1280x1024)
+D/        (  980): set continue (1360x768)
+D/        (  980): set continue (1440x900)
+D/        (  980): set continue (1680x1050)
+D/        (  980): set BetterMode (1280x720)
+D/        (  980): set BetterMode (1920x1080)
+D/        (  980): set BetterMode (1280x720)
+D/        (  980): set BetterMode (1920x1080)
+D/        (  980): set BetterMode (1920x1080)
+D/        (  980): set BetterMode (1920x1080)
+D/        (  980): set BetterMode (1920x1080)
+I/WindowManager( 1043): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=70 themeResource=null}
+D/CounterApplication(13901): APP Configuration changed
+I/PowerWidget( 1132): Clearing any old widget stuffs
+I/PowerWidget( 1132): Setting up widget
+I/PowerWidget( 1132): Button list: toggleWifi|toggleSound|toggleBrightness
+I/PowerWidget( 1132): Setting up button: toggleWifi
+I/PowerWidget( 1132): Setting up button: toggleSound
+I/PowerWidget( 1132): Setting up button: toggleBrightness
+D/dalvikvm( 1043): GC_EXTERNAL_ALLOC freed 266K, 41% free 7337K/12231K, external 5373K/5680K, paused 66ms
+D/dalvikvm( 1043): GC_EXTERNAL_ALLOC freed 28K, 41% free 7319K/12231K, external 6336K/6620K, paused 57ms
+D/SettingsAppWidgetProvider( 8698): Widget is from a previous version... Let's update
+D/SettingsAppWidgetProvider( 8698): No instances yet... Wait for at least one instance to exist before adding global settings
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40a3b558
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 199K, 50% free 3255K/6407K, external 2152K/2266K, paused 27ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 83K, 51% free 3172K/6407K, external 1888K/2033K, paused 26ms
+D/dalvikvm(16217): GC_CONCURRENT freed 394K, 51% free 3655K/7367K, external 4K/516K, paused 3ms+2ms
+D/dalvikvm( 1043): GC_EXPLICIT freed 269K, 41% free 7239K/12231K, external 7801K/7822K, paused 58ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 10K, 51% free 3173K/6407K, external 2075K/2216K, paused 29ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 24ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 2K, 51% free 3173K/6407K, external 2075K/2216K, paused 26ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 24ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 24ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 28ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 26ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 25ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 26ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 24ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 25ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 28ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 28ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3173K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2072K/2216K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2072K/2216K, paused 23ms
+D/AudioFlinger(  976): setParameters(): io 0, keyvalue RINGTONE_VOLUME=0, tid 1035, calling tid 976
+D/Beautiful Widgets(10858): RINGER_MODE_CHANGED_ACTION
+I/PROFILE ( 1043): Group: Gmail containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Phone containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Calendar containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Email containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: SMS containing : com.android.systemui : false
+V/ProfileManager( 1132): No active group, returning default: Other
+V/AudioManager( 1132): shouldVibrate, group: Other mode: DEFAULT
+I/PROFILE ( 1043): Group: Gmail containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Phone containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Calendar containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: Email containing : com.android.systemui : false
+I/PROFILE ( 1043): Group: SMS containing : com.android.systemui : false
+V/ProfileManager( 1132): No active group, returning default: Other
+V/AudioManager( 1132): shouldVibrate, group: Other mode: DEFAULT
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 25K, 51% free 3176K/6407K, external 2085K/2216K, paused 33ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed 1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 24ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 24ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 25ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 26ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 23ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 24ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3175K/6407K, external 2081K/2226K, paused 22ms
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3176K/6407K, external 2081K/2226K, paused 23ms
+I/ActivityManager( 1043): Starting: Intent { cmp=android/com.android.internal.app.DisableCarModeActivity bnds=[0,137][480,233] } from pid -1
+W/ActivityManager( 1043): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x800000 cmp=android/com.android.internal.app.DisableCarModeActivity bnds=[0,137][480,233] }
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.fede.launcher/.Launcher } from pid 1043
+I/ActivityManager( 1043): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 seq=71 themeResource=null}
+D/CounterApplication(13901): APP Configuration changed
+D/dalvikvm( 1132): GC_EXTERNAL_ALLOC freed <1K, 51% free 3176K/6407K, external 2081K/2226K, paused 39ms
+I/PowerWidget( 1132): Clearing any old widget stuffs
+I/PowerWidget( 1132): Setting up widget
+D/dalvikvm( 1161): GC_EXPLICIT freed 137K, 51% free 3325K/6727K, external 5503K/6558K, paused 51ms
+I/PowerWidget( 1132): Button list: toggleWifi|toggleSound|toggleBrightness
+I/PowerWidget( 1132): Setting up button: toggleWifi
+I/PowerWidget( 1132): Setting up button: toggleSound
+I/PowerWidget( 1132): Setting up button: toggleBrightness
+D/dalvikvm( 1161): GC_EXPLICIT freed 37K, 52% free 3288K/6727K, external 5082K/6347K, paused 33ms
+D/dalvikvm( 1161): GC_EXPLICIT freed 50K, 52% free 3237K/6727K, external 5013K/6261K, paused 39ms
+D/dalvikvm( 1161): GC_EXPLICIT freed 11K, 53% free 3228K/6727K, external 4856K/6064K, paused 35ms
+W/ResourceType( 1043): Skipping entry 0x7f040006 in package table 0 because it is not complex!
+W/ResourceType( 1043): Skipping entry 0x7f040005 in package table 0 because it is not complex!
+I/ActivityManager( 1043): No longer want com.android.providers.calendar (pid 15210): hidden #16
+D/dalvikvm( 1161): GC_EXPLICIT freed 87K, 51% free 3308K/6727K, external 5141K/6064K, paused 44ms
+W/IInputConnectionWrapper(14889): showStatusIcon on inactive InputConnection
+D/dalvikvm( 1161): GC_EXPLICIT freed 116K, 51% free 3320K/6727K, external 4979K/6064K, paused 32ms
+D/dalvikvm( 1161): GC_EXPLICIT freed 139K, 50% free 3387K/6727K, external 5283K/6064K, paused 30ms
+D/dalvikvm( 1161): GC_EXPLICIT freed 43K, 50% free 3409K/6727K, external 5450K/6064K, paused 30ms
+D/dalvikvm( 1161): GC_EXTERNAL_ALLOC freed 28K, 49% free 3457K/6727K, external 6056K/6064K, paused 32ms
+W/InputManagerService( 1043): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40942250
+D/dalvikvm(14889): GC_EXPLICIT freed 1092K, 43% free 6055K/10503K, external 1349K/1580K, paused 96ms
+D/AirMail (10611): keepalive read
+D/dalvikvm(10611): GC_EXPLICIT freed 74K, 52% free 2814K/5767K, external 0K/0K, paused 61ms
+D/dalvikvm( 1161): GC_EXTERNAL_ALLOC freed 81K, 50% free 3378K/6727K, external 6937K/6972K, paused 31ms
+D/dalvikvm(11381): GC_EXPLICIT freed 84K, 48% free 3287K/6279K, external 0K/0K, paused 34ms
+I/ActivityManager( 1043): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/android.app.NativeActivity } from pid 1161
+I/ActivityManager( 1043): Start proc com.miadzin.shmup for activity com.miadzin.shmup/android.app.NativeActivity: pid=16786 uid=10090 gids={3003, 1015}
+W/ResourceType( 1043): Skipping entry 0x7f040007 in package table 0 because it is not complex!
+W/ResourceType( 1043): Skipping entry 0x7f040008 in package table 0 because it is not complex!
+D/dalvikvm(16786): Debugger has detached; object registry had 1 entries
+D/dalvikvm(16786): GC_EXTERNAL_ALLOC freed 33K, 51% free 2685K/5379K, external 0K/0K, paused 26ms
+I/threaded_app(16786): Creating: 0x952d8
+I/threaded_app(16786): Config: mcc=310 mnc=260 lang=en cnt=US orien=1 touch=3 dens=240 keys=1 nav=1 keysHid=3 navHid=0 sdk=10 size=2 long=2 modetype=1 modenight=1
+I/threaded_app(16786): Start: 0x952d8
+I/threaded_app(16786): activityState=10
+I/threaded_app(16786): Resume: 0x952d8
+I/threaded_app(16786): activityState=11
+I/threaded_app(16786): InputQueueCreated: 0x952d8 -- 0x121fa0
+I/threaded_app(16786): APP_CMD_INPUT_CHANGED
+I/threaded_app(16786): Attaching input queue to looper
+I/threaded_app(16786): NativeWindowCreated: 0x952d8 -- 0x99380
+I/threaded_app(16786): APP_CMD_INIT_WINDOW
+I/libshmup(16786): Game dir: mnt/sdcard/shmup
+I/libshmup(16786): Write dir: mnt/sdcard/shmup
+I/threaded_app(16786): WindowFocusChanged: 0x952d8 -- 1
+I/libshmup(16786): [Renderer] Checking mode
+I/libshmup(16786): [Renderer] Running in mode OpenGL ES 1.1
+I/libshmup(16786): Opening mnt/sdcard/shmup//data/menu/font.png
+I/libshmup(16786): Opening mnt/sdcard/shmup/data/textures/object/spritesBullets.png
+I/ActivityManager( 1043): Displayed com.miadzin.shmup/android.app.NativeActivity: +378ms (total +6m52s883ms)
+I/libshmup(16786): No idea WTF this file is: 
+I/libshmup(16786): Opening mnt/sdcard/shmup/data/titles/divers.png
+I/libshmup(16786): No idea WTF this file is: 
+I/libshmup(16786): Opening mnt/sdcard/shmup//data/menu/homeAtlas.png
+D/libEGL  (16786): loaded /system/lib/egl/libGLES_android.so
+D/libEGL  (16786): loaded /system/lib/egl/libEGL_tegra.so
+D/libEGL  (16786): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+D/libEGL  (16786): loaded /system/lib/egl/libGLESv2_tegra.so
+I/libshmup(16786): DEBUG numInd: 666 ind:1437824
+I/libshmup(16786): DEBUG numText: 0
+I/libshmup(16786): DEBUG numButtons: 3
+I/libshmup(16786): DEBUG string is New Game
+I/libshmup(16786): DEBUG string is Others
+I/libshmup(16786): DEBUG string is Tutorial
+I/libshmup(16786): DEBUG moved?
+I/libshmup(16786): DEBUG numInd: 666 ind:1437824
+I/DEBUG   (  973): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   (  973): Build fingerprint: 'lge/lge_star/p999/p999:2.2.2/FRG83G/lgp999-V10f.2ED2B0648C:user/release-keys'
+I/DEBUG   (  973): pid: 16786, tid: 16796  >>> com.miadzin.shmup <<<
+I/DEBUG   (  973): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000000
+I/DEBUG   (  973):  r0 0000001c  r1 11010001  r2 00000000  r3 00000000
+I/DEBUG   (  973):  r4 0000001c  r5 44c733f0  r6 00000000  r7 44c733f0
+I/DEBUG   (  973):  r8 00157b48  r9 0000000c  10 000063f0  fp 00000117
+I/DEBUG   (  973):  ip 00000000  sp 44adcd58  lr 81c1a75c  pc 81c1a7f8  cpsr 20000010
+I/DEBUG   (  973):  d0  478cc6a347a1da3e  d1  becd9f5c481474a5
+I/DEBUG   (  973):  d2  00000000bf810733  d3  00000000478cc6a3
+I/DEBUG   (  973):  d4  0000000000000000  d5  4745250c00000000
+I/DEBUG   (  973):  d6  00000000bf800000  d7  47a090493f800000
+I/DEBUG   (  973):  d8  0000000000000000  d9  0000000000000000
+I/DEBUG   (  973):  d10 0000000000000000  d11 0000000000000000
+I/DEBUG   (  973):  d12 0000000000000000  d13 0000000000000000
+I/DEBUG   (  973):  d14 0000000000000000  d15 0000000000000000
+I/DEBUG   (  973):  scr 20000010
+I/DEBUG   (  973): 
+I/DEBUG   (  973):          #00  pc 0001a7f8  /system/lib/egl/libGLESv2_tegra.so
+I/DEBUG   (  973):          #01  pc 0001afdc  /system/lib/egl/libGLESv2_tegra.so (glDrawElements)
+I/DEBUG   (  973):          #02  pc 0000ba6c  /system/lib/egl/libGLESv1_CM_tegra.so (glDrawElements)
+I/DEBUG   (  973):          #03  pc 00030cfe  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  973):          #04  pc 00031310  /data/data/com.miadzin.shmup/lib/libshmup.so (RenderEntitiesF)
+I/DEBUG   (  973):          #05  pc 0002fd58  /data/data/com.miadzin.shmup/lib/libshmup.so (SCR_RenderFrame)
+I/DEBUG   (  973):          #06  pc 00023918  /data/data/com.miadzin.shmup/lib/libshmup.so (dEngine_HostFrame)
+I/DEBUG   (  973):          #07  pc 0000d2b6  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  973):          #08  pc 0000d356  /data/data/com.miadzin.shmup/lib/libshmup.so (android_main)
+I/DEBUG   (  973):          #09  pc 000344fe  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   (  973):          #10  pc 00011f84  /system/lib/libc.so (__thread_entry)
+I/DEBUG   (  973):          #11  pc 00011b2c  /system/lib/libc.so (pthread_create)
+I/DEBUG   (  973): 
+I/DEBUG   (  973): code around pc:
+I/DEBUG   (  973): 81c1a7d8 e3a03000 e58d9028 e59db05c e1a0c003 
+I/DEBUG   (  973): 81c1a7e8 e1a09005 e087500c e0862003 e25bb001 
+I/DEBUG   (  973): 81c1a7f8 e8920007 e28cc00c e0833004 e8850007 
+I/DEBUG   (  973): 81c1a808 1afffff7 e1a01009 e59d405c e59d9028 
+I/DEBUG   (  973): 81c1a818 e0050491 e2855003 e085a00a e3caa003 
+I/DEBUG   (  973): 
+I/DEBUG   (  973): code around lr:
+I/DEBUG   (  973): 81c1a73c e58dc004 e59d7024 e58d5000 e59db018 
+I/DEBUG   (  973): 81c1a74c e79bc007 e7dc700e e58d7008 eb00b192 
+I/DEBUG   (  973): 81c1a75c e59d301c e3530000 0a000009 e59d2010 
+I/DEBUG   (  973): 81c1a76c e5920048 e3500000 0a00006f e59d302c 
+I/DEBUG   (  973): 81c1a77c e080000a e0216394 e1a02005 ebffa50d 
+I/DEBUG   (  973): 
+I/DEBUG   (  973): stack:
+I/DEBUG   (  973):     44adcd18  0017d978  
+I/DEBUG   (  973):     44adcd1c  0017db70  
+I/DEBUG   (  973):     44adcd20  0017d9a4  
+I/DEBUG   (  973):     44adcd24  0017d7dc  
+I/DEBUG   (  973):     44adcd28  0017daac  
+I/DEBUG   (  973):     44adcd2c  0017d3cc  
+I/DEBUG   (  973):     44adcd30  0017bb0c  
+I/DEBUG   (  973):     44adcd34  0017b930  
+I/DEBUG   (  973):     44adcd38  0017c678  
+I/DEBUG   (  973):     44adcd3c  0000000f  
+I/DEBUG   (  973):     44adcd40  00000000  
+I/DEBUG   (  973):     44adcd44  81c2e26d  /system/lib/egl/libGLESv2_tegra.so
+I/DEBUG   (  973):     44adcd48  0000001c  
+I/DEBUG   (  973):     44adcd4c  0000000c  
+I/DEBUG   (  973):     44adcd50  df002777  
+I/DEBUG   (  973):     44adcd54  e3a070ad  
+I/DEBUG   (  973): #00 44adcd58  0000000c  
+I/DEBUG   (  973):     44adcd5c  00000003  
+I/DEBUG   (  973):     44adcd60  0000000d  
+I/DEBUG   (  973):     44adcd64  00000000  
+I/DEBUG   (  973):     44adcd68  0017c4d8  
+I/DEBUG   (  973):     44adcd6c  00000001  
+I/DEBUG   (  973):     44adcd70  81c4e66c  
+I/DEBUG   (  973):     44adcd74  00000000  
+I/DEBUG   (  973):     44adcd78  81c478e4  /system/lib/egl/libGLESv2_tegra.so
+I/DEBUG   (  973):     44adcd7c  ffffffe0  
+I/DEBUG   (  973):     44adcd80  0032d7cc  
+I/DEBUG   (  973):     44adcd84  00000000  
+I/DEBUG   (  973):     44adcd88  0000029a  
+I/DEBUG   (  973):     44adcd8c  00157b48  
+I/DEBUG   (  973):     44adcd90  0000029a  
+I/DEBUG   (  973):     44adcd94  00000004  
+I/DEBUG   (  973):     44adcd98  0015f080  
+I/DEBUG   (  973):     44adcd9c  00000001  
+I/DEBUG   (  973):     44adcda0  00000000  
+I/DEBUG   (  973):     44adcda4  0017c4d8  
+I/DEBUG   (  973):     44adcda8  00000534  
+I/DEBUG   (  973):     44adcdac  81c1afe0  /system/lib/egl/libGLESv2_tegra.so
+I/DEBUG   (  973): #01 44adcdb0  00000000  
+I/DEBUG   (  973):     44adcdb4  00000118  
+I/DEBUG   (  973):     44adcdb8  00001403  
+I/DEBUG   (  973):     44adcdbc  0000029a  
+I/DEBUG   (  973):     44adcdc0  00000000  
+I/DEBUG   (  973):     44adcdc4  81706e3f  /system/lib/egl/libGLESv1_CM_tegra.so
+I/DEBUG   (  973):     44adcdc8  0017c51c  
+I/DEBUG   (  973):     44adcdcc  00005ebc  
+I/DEBUG   (  973):     44adcdd0  0000000c  
+I/DEBUG   (  973):     44adcdd4  00000299  
+I/DEBUG   (  973):     44adcdd8  00000000  
+I/DEBUG   (  973):     44adcddc  00000534  
+I/DEBUG   (  973):     44adcde0  00000118  
+I/DEBUG   (  973):     44adcde4  00000000  
+I/DEBUG   (  973):     44adcde8  000003c0  
+I/DEBUG   (  973):     44adcdec  0017b930  
+I/DEBUG   (  973):     44adcdf0  8171a1a4  
+I/DEBUG   (  973):     44adcdf4  00000004  
+I/DEBUG   (  973):     44adcdf8  81c1a9ac  /system/lib/egl/libGLESv2_tegra.so
+I/DEBUG   (  973):     44adcdfc  8171a7c4  
+I/DEBUG   (  973):     44adce00  00001403  
+I/DEBUG   (  973):     44adce04  0000029a  
+I/DEBUG   (  973):     44adce08  00000000  
+I/DEBUG   (  973):     44adce0c  8170ba6f  /system/lib/egl/libGLESv1_CM_tegra.so
+I/BootReceiver( 1043): Copying /data/tombstones/tombstone_01 to DropBox (SYSTEM_TOMBSTONE)
+E/InputDispatcher( 1043): channel '40927360 com.miadzin.shmup/android.app.NativeActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x8
+E/InputDispatcher( 1043): channel '40927360 com.miadzin.shmup/android.app.NativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+D/Zygote  (  975): Process 16786 terminated by signal (11)
+D/dalvikvm( 1043): GC_FOR_MALLOC freed 880K, 40% free 7357K/12231K, external 1634K/2105K, paused 52ms
+I/ActivityManager( 1043): Process com.miadzin.shmup (pid 16786) has died.
+I/WindowManager( 1043): WINDOW DIED Window{40927360 com.miadzin.shmup/android.app.NativeActivity paused=false}
+D/dalvikvm( 1043): GC_FOR_MALLOC freed 34K, 39% free 7501K/12231K, external 1634K/2105K, paused 54ms
+I/dalvikvm-heap( 1043): Grow heap (frag case) to 11.401MB for 75504-byte allocation
+D/dalvikvm( 1043): GC_FOR_MALLOC freed 3K, 39% free 7571K/12359K, external 1634K/2105K, paused 49ms
+D/dalvikvm( 1043): GC_FOR_MALLOC freed 218K, 41% free 7354K/12359K, external 1626K/2105K, paused 49ms
+W/WindowManager( 1043): Failed looking up window
+W/WindowManager( 1043): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@40953ba0 does not exist
+W/WindowManager( 1043): 	at com.android.server.WindowManagerService.windowForClientLocked(WindowManagerService.java:8247)
+W/WindowManager( 1043): 	at com.android.server.WindowManagerService.windowForClientLocked(WindowManagerService.java:8238)
+W/WindowManager( 1043): 	at com.android.server.WindowManagerService$WindowState$DeathRecipient.binderDied(WindowManagerService.java:7096)
+W/WindowManager( 1043): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:385)
+W/WindowManager( 1043): 	at dalvik.system.NativeStart.run(Native Method)
+I/WindowManager( 1043): WIN DEATH: null
+W/InputManagerService( 1043): Got RemoteException sending setActive(false) notification to pid 16786 uid 10090
+W/ResourceType( 1043): Skipping entry 0x7f040006 in package table 0 because it is not complex!

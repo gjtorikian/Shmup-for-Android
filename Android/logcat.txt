@@ -1,0 +1,1252 @@
+--------- beginning of /dev/log/system
+I/WindowManager( 1060): WIN DEATH: Window{40888f48 com.android.browser/com.android.browser.BrowserActivity paused=false}
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.fede.launcher/.Launcher } from pid 1060
+I/ActivityManager( 1060): Starting: Intent { act=com.twitter.android.post.status flg=0x14000000 cmp=com.twitter.android/.PostActivity bnds=[391,52][466,118] (has extras) } from pid -1
+I/WindowManager( 1060): Setting rotation to 1, animFlags=0
+I/ActivityManager( 1060): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=17 seq=66 themeResource=null}
+I/WindowManager( 1060): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1060): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 seq=67 themeResource=null}
+I/ActivityManager( 1060): Starting: Intent { flg=0x4000000 cmp=com.twitter.android/.HomeTabActivity } from pid 30301
+I/ActivityManager( 1060): Starting: Intent { dat=content://com.twitter.android.provider.TwitterProvider/status_groups_view/id/109005992737517568?ownerId=121478730 cmp=com.twitter.android/.TweetActivity } from pid 30301
+I/ActivityManager( 1060): Starting: Intent { act=com.twitter.android.post.reply cmp=com.twitter.android/.PostActivity (has extras) } from pid 30301
+I/ActivityManager( 1060): Starting: Intent { flg=0x4000000 cmp=com.twitter.android/.HomeTabActivity (has extras) } from pid 30301
+W/ActivityManager( 1060): Duplicate finish request for HistoryRecord{408cd638 com.twitter.android/.PostActivity}
+V/BackupManagerService( 1060): Backup requested but nothing pending
+I/TelephonyRegistry( 1060): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1060): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=10
+W/InputManagerService( 1060): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@408ea638
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.PROVIDER_CHANGED cat=[gjtorikian@gmail.com] dat=content://gmail-ls/unread/^i flg=0x4000000 cmp=com.google.android.gm/.ConversationListActivity bnds=[0,137][480,233] (has extras) } from pid -1
+W/ActivityManager( 1060): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.intent.action.PROVIDER_CHANGED cat=[gjtorikian@gmail.com] dat=content://gmail-ls/unread/^i flg=0x4000000 cmp=com.google.android.gm/.ConversationListActivity bnds=[0,137][480,233] (has extras) }
+I/ActivityManager( 1060): Starting: Intent { cmp=com.google.android.gm/.HtmlConversationActivity (has extras) } from pid 26596
+I/ActivityManager( 1060): Starting: Intent { cmp=com.google.android.gm/.HtmlConversationActivity (has extras) } from pid 26596
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.fede.launcher/.Launcher } from pid 1060
+I/ActivityManager( 1060): No longer want com.skype.raider (pid 22411): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.skype.raider/com.skype.MainService in 5000ms
+I/ActivityManager( 1060): Start proc com.skype.raider for service com.skype.raider/com.skype.MainService: pid=32644 uid=10127 gids={1006, 3003, 3002, 1015}
+W/InputManagerService( 1060): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@409bc558
+I/TelephonyRegistry( 1060): notifyServiceState: 0 home T-Mobile T-Mobile 310260  EDGE CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1060): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=2
+I/TelephonyRegistry( 1060): notifyServiceState: 1 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1060): notifyDataConnection: state=2 isDataConnectivityPossible=false reason=null interfaceName=vsnet0 networkType=10
+I/TelephonyRegistry( 1060): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+D/Vold    (  978): USB connected
+D/Vold    (  978): Share method ums now available
+I/StorageNotification( 1148): UMS connection changed to true (media state mounted)
+I/ActivityManager( 1060): Start proc com.drx2.bootmanager for broadcast com.drx2.bootmanager/.AutoSdcard: pid=484 uid=10128 gids={1015, 3003}
+W/Vold    (  978): Ignoring unknown switch 'usb_mass_storage'
+D/Vold    (  978): USB connected
+W/ProcessStats( 1060): Skipping unknown process pid 505
+I/ActivityManager( 1060): No longer want com.cyanogenmod.LGEServices (pid 22505): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.cyanogenmod.LGEServices/.LGEServices in 5000ms
+I/WindowManager( 1060): Setting rotation to 3, animFlags=0
+I/ActivityManager( 1060): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=17 seq=68 themeResource=null}
+I/ActivityManager( 1060): Start proc com.cyanogenmod.LGEServices for service com.cyanogenmod.LGEServices/.LGEServices: pid=519 uid=1000 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1060): No longer want com.android.vending (pid 24783): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.android.vending/com.google.android.finsky.services.ContentSyncService in 5000ms
+I/WindowManager( 1060): WIN DEATH: Window{4095ad48 com.android.vending/com.android.vending.AssetBrowserActivity paused=false}
+I/ActivityManager( 1060): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=756 uid=10032 gids={1015, 2001}
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.google.android.googlequicksearchbox (pid 25624): hidden #16
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=771 uid=10011 gids={1015, 3003}
+I/ActivityManager( 1060): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=779 uid=10027 gids={3002}
+I/ActivityManager( 1060): No longer want com.yelp.android (pid 28566): hidden #16
+I/ActivityManager( 1060): Start proc com.tmobile.thememanager for broadcast com.tmobile.thememanager/.receiver.ThemePackageReceiver: pid=787 uid=1300 gids={-1}
+I/ActivityManager( 1060): No longer want com.google.android.apps.maps (pid 25593): hidden #16
+I/ActivityManager( 1060): No longer want com.cyanogenmod.stats (pid 31335): hidden #16
+I/WindowManager( 1060): WIN DEATH: Window{40af7730 com.yelp.android/com.yelp.android.ui.activities.ActivityHome paused=false}
+I/WindowManager( 1060): WIN DEATH: Window{409af0c8 com.yelp.android/com.yelp.android.ui.activities.ActivityBusinessListResults paused=false}
+I/WindowManager( 1060): WIN DEATH: Window{40af5530 com.yelp.android/com.yelp.android.ui.activities.ActivityBusinessPage paused=false}
+I/WindowManager( 1060): WIN DEATH: Window{40912b48 com.google.android.apps.maps/com.google.android.maps.MapsActivity paused=false}
+I/WindowManager( 1060): WIN DEATH: Window{4094fd50 SurfaceView paused=false}
+I/ActivityManager( 1060): Start proc com.keramidas.TitaniumBackup for broadcast com.keramidas.TitaniumBackup/.PackageEventsReceiver: pid=796 uid=10066 gids={1015, 3003}
+I/ActivityManager( 1060): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PersistentPackageMonitorReceiver: pid=814 uid=10002 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.google.android.apps.uploader (pid 31344): hidden #16
+I/ActivityManager( 1060): Start proc com.wsl.noom for broadcast com.wsl.noom/com.wsl.CardioTrainer.resolution.DonationAppInstalledReceiver: pid=837 uid=10091 gids={3003, 1015, 3001, 3002}
+I/ActivityManager( 1060): No longer want com.ridecharge.android.taximagic (pid 31425): hidden #16
+I/ActivityManager( 1060): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=845 uid=10005 gids={}
+I/ActivityManager( 1060): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=853 uid=10006 gids={}
+I/ActivityManager( 1060): No longer want com.fatsecret.android (pid 26659): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.apps.maps for broadcast com.google.android.apps.maps/com.google.android.location.internal.NlpPackageUpdateReceiver: pid=861 uid=10097 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.google.android.gm (pid 26596): hidden #16
+I/WindowManager( 1060): WIN DEATH: Window{408880d0 com.google.android.gm/com.google.android.gm.ConversationListActivity paused=false}
+I/ActivityManager( 1060): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=869 uid=10097 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.android.settings (pid 26650): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.CorporaUpdateReceiver: pid=877 uid=10023 gids={3003}
+I/ActivityManager( 1060): No longer want com.drx2.bootmanager (pid 484): hidden #16
+I/ActivityManager( 1060): No longer want com.spotify.mobile.android.ui (pid 25520): hidden #17
+W/ActivityManager( 1060): Scheduling restart of crashed service com.spotify.mobile.android.ui/com.spotify.mobile.android.service.LocalService in 5000ms
+I/WindowManager( 1060): WIN DEATH: Window{4094a918 com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.Launcher paused=false}
+I/ActivityManager( 1060): No longer want com.cyanogenmod.cmparts (pid 13973): hidden #16
+I/ActivityManager( 1060): Start proc com.spotify.mobile.android.ui for service com.spotify.mobile.android.ui/com.spotify.mobile.android.service.LocalService: pid=894 uid=10126 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.twitter.android (pid 30301): hidden #16
+I/WindowManager( 1060): WIN DEATH: Window{40888f48 com.twitter.android/com.twitter.android.HomeTabActivity paused=false}
+I/WindowManager( 1060): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1060): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 seq=69 themeResource=null}
+I/ActivityManager( 1060): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=965 uid=1000 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1060): Start proc com.fatsecret.android for broadcast com.fatsecret.android/.widget.CalorieWidgetProvider: pid=992 uid=10062 gids={1006, 3003, 1015}
+I/ActivityManager( 1060): No longer want com.android.defcontainer (pid 756): hidden #16
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=1018 uid=10121 gids={3003, 1015}
+I/WindowManager( 1060): WINDOW DIED Window{408be798 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 1018) has died.
+I/BootReceiver( 1060): Copying /data/tombstones/tombstone_09 to DropBox (SYSTEM_TOMBSTONE)
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 1018 uid 10121
+I/ActivityManager( 1060): No longer want android.process.media (pid 13574): hidden #16
+W/ProcessStats( 1060): Skipping unknown process pid 1380
+W/ProcessStats( 1060): Skipping unknown process pid 1381
+W/ProcessStats( 1060): Skipping unknown process pid 1562
+W/ProcessStats( 1060): Skipping unknown process pid 1563
+I/ActivityManager( 1060): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=1769 uid=10032 gids={1015, 2001}
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 771): hidden #16
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=1784 uid=10011 gids={1015, 3003}
+I/ActivityManager( 1060): No longer want com.google.android.partnersetup (pid 853): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=1795 uid=10006 gids={}
+I/ActivityManager( 1060): No longer want com.facebook.katana (pid 25973): hidden #16
+I/WindowManager( 1060): WIN DEATH: Window{4090b5d8 com.facebook.katana/com.facebook.katana.ProfileTabHostActivity paused=false}
+W/InputManagerService( 1060): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4071d8e8
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=1839 uid=10121 gids={3003, 1015}
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 1839) has died.
+I/WindowManager( 1060): WIN DEATH: Window{40aa20c0 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 1839 uid 10121
+I/WindowManager( 1060): Setting rotation to 1, animFlags=0
+I/ActivityManager( 1060): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=2 layout=34 uiMode=17 seq=70 themeResource=null}
+I/WindowManager( 1060): Setting rotation to 0, animFlags=0
+I/ActivityManager( 1060): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 seq=71 themeResource=null}
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=1912 uid=10121 gids={3003, 1015}
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 1912) has died.
+I/WindowManager( 1060): WIN DEATH: Window{408be798 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/InputManagerService( 1060): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4081b598 (uid=10099 pid=1186)
+W/InputManagerService( 1060): Client not active, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40885f70
+W/ProcessStats( 1060): Skipping unknown process pid 1937
+W/ProcessStats( 1060): Skipping unknown process pid 1938
+I/DockObserver( 1060): Dock state changed: 0
+W/Vold    (  978): Ignoring unknown switch 'dock'
+W/Vold    (  978): Ignoring unknown switch 'dock'
+I/DockObserver( 1060): Dock state changed: 2
+I/ActivityManager( 1060): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=2443 uid=1000 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1060): No longer want com.android.defcontainer (pid 1769): hidden #16
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.CAR_DOCK] flg=0x10200000 } from pid 1060
+I/ActivityManager( 1060): Config changed: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=19 seq=72 themeResource=null}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 1912 uid 10121
+I/ActivityManager( 1060): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=2490 uid=10032 gids={1015, 2001}
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 1784): hidden #16
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=2560 uid=10011 gids={1015, 3003}
+I/ActivityManager( 1060): No longer want com.google.android.partnersetup (pid 1795): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=2570 uid=10006 gids={}
+I/ActivityManager( 1060): No longer want com.fatsecret.android (pid 992): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.gm for service com.google.android.gm/.provider.MailSyncAdapterService: pid=2857 uid=10106 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.android.settings (pid 965): hidden #16
+I/ActivityManager( 1060): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=2901 uid=10021 gids={1015, 2001, 3003}
+I/ActivityManager( 1060): No longer want com.android.defcontainer (pid 2490): hidden #16
+W/ProcessStats( 1060): Skipping unknown process pid 3030
+W/ProcessStats( 1060): Skipping unknown process pid 3031
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=3356 uid=10121 gids={3003, 1015}
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 3356) has died.
+I/WindowManager( 1060): WIN DEATH: Window{408761f0 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/InputManagerService( 1060): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4081b598 (uid=10099 pid=1186)
+W/InputManagerService( 1060): Client not active, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@408c6918
+V/BackupManagerService( 1060): Backup requested but nothing pending
+W/ProcessStats( 1060): Skipping unknown process pid 3530
+W/ProcessStats( 1060): Skipping unknown process pid 3531
+I/ActivityManager( 1060): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=3860 uid=10032 gids={1015, 2001}
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 2560): hidden #16
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=3927 uid=10011 gids={1015, 3003}
+I/ActivityManager( 1060): No longer want com.google.android.partnersetup (pid 2570): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=3940 uid=10006 gids={}
+I/ActivityManager( 1060): No longer want android.process.media (pid 2901): hidden #16
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=3974 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 3356 uid 10121
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 3974) has died.
+I/WindowManager( 1060): WIN DEATH: Window{40a77698 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/InputManagerService( 1060): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40aeb4a0
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.skype.raider (pid 32644): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.skype.raider/com.skype.MainService in 5000ms
+I/ActivityManager( 1060): Start proc com.skype.raider for service com.skype.raider/com.skype.MainService: pid=4643 uid=10127 gids={1006, 3003, 3002, 1015}
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=5041 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 3974 uid 10121
+I/WindowManager( 1060): WIN DEATH: Window{4096c030 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 5041) has died.
+I/TelephonyRegistry( 1060): notifyServiceState: 0 home T-Mobile T-Mobile 310260  EDGE CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1060): notifyDataConnection: state=2 isDataConnectivityPossible=true reason=null interfaceName=vsnet0 networkType=2
+W/ProcessStats( 1060): Skipping unknown process pid 5140
+W/ProcessStats( 1060): Skipping unknown process pid 5141
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.facebook.katana for service com.facebook.katana/.service.FacebookService: pid=5480 uid=10108 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.cyanogenmod.LGEServices (pid 519): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.cyanogenmod.LGEServices/.LGEServices in 5000ms
+I/ActivityManager( 1060): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=5531 uid=10021 gids={1015, 2001, 3003}
+I/ActivityManager( 1060): No longer want com.android.defcontainer (pid 3860): hidden #16
+I/ActivityManager( 1060): Start proc com.cyanogenmod.LGEServices for service com.cyanogenmod.LGEServices/.LGEServices: pid=5547 uid=1000 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=5573 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 5041 uid 10121
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 5573) has died.
+I/WindowManager( 1060): WIN DEATH: Window{40a24a30 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 3927): hidden #16
+W/ProcessStats( 1060): Skipping unknown process pid 5936
+W/ProcessStats( 1060): Skipping unknown process pid 5937
+W/ProcessStats( 1060): Skipping unknown process pid 6188
+W/ProcessStats( 1060): Skipping unknown process pid 6189
+I/ActivityManager( 1060): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=6200 uid=10032 gids={1015, 2001}
+W/ActivityManager( 1060): No content provider found for: 
+I/TelephonyRegistry( 1060): notifyServiceState: 1 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry( 1060): notifyDataConnection: state=2 isDataConnectivityPossible=false reason=null interfaceName=vsnet0 networkType=10
+I/TelephonyRegistry( 1060): notifyServiceState: 0 home T-Mobile T-Mobile 310260  HSPA CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.android.voicedialer (pid 779): hidden #16
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=6293 uid=10011 gids={1015, 3003}
+I/ActivityManager( 1060): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=6303 uid=10027 gids={3002}
+I/ActivityManager( 1060): No longer want com.google.android.partnersetup (pid 3940): hidden #16
+I/ActivityManager( 1060): No longer want com.svox.pico (pid 845): hidden #16
+I/ActivityManager( 1060): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=6317 uid=10005 gids={}
+I/ActivityManager( 1060): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=6325 uid=10006 gids={}
+I/ActivityManager( 1060): No longer want com.google.android.apps.maps:FriendService (pid 869): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=6335 uid=10097 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.google.android.googlequicksearchbox (pid 877): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.CorporaUpdateReceiver: pid=6345 uid=10023 gids={3003}
+I/ActivityManager( 1060): No longer want com.facebook.katana (pid 5480): hidden #16
+I/ActivityManager( 1060): No longer want com.google.android.gm (pid 2857): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.gm for service com.google.android.gm/.provider.MailSyncAdapterService: pid=6496 uid=10106 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.cyanogenmod.cmparts (pid 2443): hidden #16
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=6584 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 5573 uid 10121
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 6584) has died.
+I/WindowManager( 1060): WIN DEATH: Window{40966038 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+I/ActivityManager( 1060): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=7708 uid=1000 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1060): No longer want com.android.defcontainer (pid 6200): hidden #16
+W/ProcessStats( 1060): Skipping unknown process pid 7764
+W/ProcessStats( 1060): Skipping unknown process pid 7765
+I/ActivityManager( 1060): No longer want com.spotify.mobile.android.ui (pid 894): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.spotify.mobile.android.ui/com.spotify.mobile.android.service.LocalService in 5000ms
+I/ActivityManager( 1060): Start proc com.spotify.mobile.android.ui for service com.spotify.mobile.android.ui/com.spotify.mobile.android.service.LocalService: pid=7839 uid=10126 gids={3003, 1015}
+I/ActivityManager( 1060): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=7872 uid=10032 gids={1015, 2001}
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 6293): hidden #16
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=7953 uid=10011 gids={1015, 3003}
+I/ActivityManager( 1060): No longer want com.google.android.partnersetup (pid 6325): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=7969 uid=10006 gids={}
+I/ActivityManager( 1060): No longer want com.google.android.gm (pid 6496): hidden #16
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=8043 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 6584 uid 10121
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 8043) has died.
+I/WindowManager( 1060): WIN DEATH: Window{408be798 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/InputManagerService( 1060): Client not active, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40918180
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=8402 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 8043 uid 10121
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 8402) has died.
+I/WindowManager( 1060): WIN DEATH: Window{408be798 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/InputManagerService( 1060): Client not active, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40adc0e0
+W/InputManagerService( 1060): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40a37208
+I/ActivityManager( 1060): Start proc com.facebook.katana for broadcast com.facebook.katana/.C2DMReceiver: pid=8721 uid=10108 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want android.process.media (pid 5531): hidden #16
+W/ProcessStats( 1060): Skipping unknown process pid 8953
+W/ProcessStats( 1060): Skipping unknown process pid 8954
+W/ProcessStats( 1060): Skipping unknown process pid 9139
+W/ProcessStats( 1060): Skipping unknown process pid 9140
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 7953): hidden #16
+I/ActivityManager( 1060): No longer want com.google.android.apps.googlevoice (pid 14512): hidden #17
+W/ActivityManager( 1060): Scheduling restart of crashed service com.google.android.apps.googlevoice/.widget.WidgetService in 5000ms
+W/ActivityManager( 1060): Scheduling restart of crashed service com.google.android.apps.googlevoice/.CallLogService in 15000ms
+W/ActivityManager( 1060): Scheduling restart of crashed service com.google.android.apps.googlevoice/.UpdateService in 25000ms
+I/WindowManager( 1060): WIN DEATH: Window{40aeafc8 com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.SplashActivity paused=false}
+I/WindowManager( 1060): WIN DEATH: Window{408a3ed8 com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.activity.conversationlist.ConversationListActivity paused=false}
+I/WindowManager( 1060): WIN DEATH: Window{408c7e68 com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.PhoneCallListActivity paused=false}
+I/ActivityManager( 1060): Start proc com.google.android.apps.googlevoice for service com.google.android.apps.googlevoice/.widget.WidgetService: pid=9270 uid=10103 gids={3003, 1015}
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): No longer want com.android.voicedialer (pid 6303): hidden #16
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=9328 uid=10011 gids={1015, 3003}
+I/ActivityManager( 1060): Start proc com.android.voicedialer for broadcast com.android.voicedialer/.VoiceDialerReceiver: pid=9346 uid=10027 gids={3002}
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=9550 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 8402 uid 10121
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 9550) has died.
+I/WindowManager( 1060): WIN DEATH: Window{4096f2c8 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+I/BootReceiver( 1060): Copying /data/tombstones/tombstone_00 to DropBox (SYSTEM_TOMBSTONE)
+W/ProcessStats( 1060): Skipping unknown process pid 9588
+W/ProcessStats( 1060): Skipping unknown process pid 9589
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=9773 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 9550 uid 10121
+I/BootReceiver( 1060): Copying /data/tombstones/tombstone_01 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 9773) has died.
+I/WindowManager( 1060): WIN DEATH: Window{408a3ed8 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+W/InputManagerService( 1060): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40a06b88
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=10033 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 9773 uid 10121
+I/BootReceiver( 1060): Copying /data/tombstones/tombstone_02 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 10033) has died.
+I/WindowManager( 1060): WIN DEATH: Window{409db620 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/ProcessStats( 1060): Skipping unknown process pid 10352
+W/ProcessStats( 1060): Skipping unknown process pid 10353
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=10501 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 10033 uid 10121
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 10501) has died.
+I/WindowManager( 1060): WIN DEATH: Window{407dca30 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/InputManagerService( 1060): Client not active, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40a5c358
+I/ActivityManager( 1060): Start proc com.google.android.gm for service com.google.android.gm/.provider.MailSyncAdapterService: pid=10573 uid=10106 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.cyanogenmod.cmparts (pid 7708): hidden #16
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=10843 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 10501 uid 10121
+I/BootReceiver( 1060): Copying /data/tombstones/tombstone_03 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 10843) has died.
+I/WindowManager( 1060): WIN DEATH: Window{408a3ed8 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+W/ProcessStats( 1060): Skipping unknown process pid 11399
+W/ProcessStats( 1060): Skipping unknown process pid 11400
+W/ProcessStats( 1060): Skipping unknown process pid 12183
+W/ProcessStats( 1060): Skipping unknown process pid 12184
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/ProcessStats( 1060): Skipping unknown process pid 12597
+W/ProcessStats( 1060): Skipping unknown process pid 12598
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=12649 uid=10121 gids={3003, 1015}
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 10843 uid 10121
+I/BootReceiver( 1060): Copying /data/tombstones/tombstone_04 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 12649) has died.
+I/WindowManager( 1060): WIN DEATH: Window{409fa598 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+I/ActivityManager( 1060): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=12708 uid=1000 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1060): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=12718 uid=10021 gids={1015, 2001, 3003}
+I/ActivityManager( 1060): No longer want com.facebook.katana (pid 8721): hidden #16
+I/ActivityManager( 1060): No longer want com.levelup.beautifulwidgets (pid 13819): hidden #16
+W/ProcessStats( 1060): Skipping unknown process pid 12735
+W/ProcessStats( 1060): Skipping unknown process pid 12736
+I/ActivityManager( 1060): Start proc com.levelup.beautifulwidgets for broadcast com.levelup.beautifulwidgets/.TextClockWidget: pid=12741 uid=10113 gids={3003, 3002, 3001, 1015}
+I/ActivityManager( 1060): No longer want com.android.defcontainer (pid 7872): hidden #16
+I/ActivityManager( 1060): No longer want com.skype.raider (pid 4643): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.skype.raider/com.skype.MainService in 5000ms
+I/ActivityManager( 1060): Start proc com.skype.raider for service com.skype.raider/com.skype.MainService: pid=12891 uid=10127 gids={1006, 3003, 3002, 1015}
+W/ProcessStats( 1060): Skipping unknown process pid 13264
+W/ProcessStats( 1060): Skipping unknown process pid 13265
+I/ActivityManager( 1060): No longer want com.cyanogenmod.LGEServices (pid 5547): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.cyanogenmod.LGEServices/.LGEServices in 5000ms
+I/ActivityManager( 1060): Start proc com.cyanogenmod.LGEServices for service com.cyanogenmod.LGEServices/.LGEServices: pid=13739 uid=1000 gids={3002, 3001, 3003, 1015}
+I/ActivityManager( 1060): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=14163 uid=10032 gids={1015, 2001}
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 9328): hidden #16
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk; Retaining data and using new
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-1.apk to /data/app/com.miadzin.shmup-2.apk
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=14240 uid=10011 gids={1015, 3003}
+I/ActivityManager( 1060): No longer want com.google.android.partnersetup (pid 7969): hidden #16
+W/ProcessStats( 1060): Skipping unknown process pid 14857
+W/ProcessStats( 1060): Skipping unknown process pid 14858
+I/ActivityManager( 1060): Start proc com.twitter.android for service com.twitter.android/.client.AppService: pid=15230 uid=10071 gids={3003}
+I/ActivityManager( 1060): No longer want com.android.defcontainer (pid 14163): hidden #16
+--------- beginning of /dev/log/main
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDDEC [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  983): State change started: android.audio from 4 to 2
+D/        (  983): State change completed: android.audio from 4 to 2
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDREND [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDREND android.audio
+D/        (  983): [0]-th component name OMX.Nvidia.clock.component
+D/        (  983): [1]-th component name OMX.Nvidia.reader
+D/        (  983): [2]-th component name OMX.Nvidia.aac.decoder
+D/        (  983): [3]-th component name android.audio
+D/        (  983): State change started: OMX.Nvidia.clock.component from 2 to 1
+D/        (  983): State change started: android.audio from 2 to 1
+D/        (  983): State change completed: android.audio from 2 to 1
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDREND [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDREND android.audio
+D/        (  983): State change started: OMX.Nvidia.clock.component from 2 to 1
+D/        (  983): State change completed: OMX.Nvidia.clock.component from 2 to 1
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [0]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): State change started: OMX.Nvidia.aac.decoder from 2 to 1
+D/        (  983): State change started: OMX.Nvidia.reader from 2 to 1
+D/        (  983): State change completed: OMX.Nvidia.aac.decoder from 2 to 1
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDDEC [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  987): NVRM_DAEMON(819): rt_exist=1, add client ref
+D/        (  983): State change completed: OMX.Nvidia.reader from 2 to 1
+D/        (  983): Graph_EventHandler: Cmd Complete for READER [0]
+D/        (  983): Graph_EventHandler: Sem signalled for READER OMX.Nvidia.reader
+D/        (  987): NVRM_DAEMON(499): client process closed connection
+D/        (  987): NVRM_DAEMON(499): client process closed connection
+D/        (  983): setting block activity: 0
+V/OMXPlayer(  983): resetting
+E/OMXPlayer(  983): reset done 0x153eb8
+E/OMXPlayer(  983): destructor: 0x153eb8 done 
+D/dalvikvm(15230): GC_EXTERNAL_ALLOC freed 167K, 47% free 3332K/6215K, external 0K/0K, paused 34ms
+E/MediaPlayerService(  983):  create BoardHWPlayer
+E/OMXPlayer(  983): Creating new NVOMXPlayer: 0x1584d8
+E/OMXPlayer(  983): onFirstRef ++
+E/OMXPlayer(  983): onFirstRef --
+E/OMXPlayer(  983): setdatasource ++ 0x1584d8 
+V/OMXPlayer(  983): setDataSource delete 0 
+E/OMXPlayer(  983): 0x1584d8 setDataSource url=droid://40:126984:4717
+V/OMXPlayer(  983): setDataSource mState != STATE_SUSPEND
+V/OMXPlayer(  983): Worker Thread Enter + 
+E/OMXPlayer(  983): render thread(15331) started: 0x1584d8
+V/OMXPlayer(  983): setDataSource exit
+E/OMXPlayer(  983): prepareAsync: 0x1584d8
+V/OMXPlayer(  983): prepareAsync mCondition.signal 
+V/OMXPlayer(  983): prepareAsync done 
+V/OMXPlayer(  983): worker calling prepare() 
+E/OMXPlayer(  983): prepare 0x1584d8
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [2]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [2]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [2]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [2]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [2]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [2]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [2]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [2]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+E/OMXPlayer(  983): 0x1584d8 Creating player for: droid://40:126984:4717
+D/        (  987): NVRM_DAEMON(819): rt_exist=1, add client ref
+V/Nvxplayergraph(  983): NVOMX_RegisterComponent = OMX.Nvidia.aac.decoder
+D/        (  983): Graph_EventHandler: Cmd Complete for READER [2]
+D/        (  983): Graph_EventHandler: Sem signalled for READER OMX.Nvidia.reader
+V/Nvxplayergraph(  983): ----------Audio[8]------------
+V/Nvxplayergraph(  983):  decoder = OMX.Nvidia.aac.decoder 
+V/Nvxplayergraph(  983):  bps = 0
+V/Nvxplayergraph(  983):  sf = 44100
+V/Nvxplayergraph(  983):  bitrate = 128000
+V/Nvxplayergraph(  983):  ch = 1
+V/Nvxplayergraph(  983): -------------------------------
+D/        (  983): [0]-th component name OMX.Nvidia.clock.component
+D/        (  983): [1]-th component name OMX.Nvidia.reader
+D/        (  983): [2]-th component name OMX.Nvidia.aac.decoder
+D/        (  983): [3]-th component name android.audio
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [3]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): State change started: OMX.Nvidia.clock.component from 1 to 2
+D/        (  983): State change started: OMX.Nvidia.reader from 1 to 2
+D/        (  983): State change started: OMX.Nvidia.aac.decoder from 1 to 2
+D/        (  983): State change started: android.audio from 1 to 2
+D/        (  983): State change completed: android.audio from 1 to 2
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDREND [0]
+D/        (  983): State change started: OMX.Nvidia.clock.component from 1 to 2
+D/        (  983): Graph_EventHandler: Sem signalled for AUDREND android.audio
+D/        (  983): State change completed: OMX.Nvidia.clock.component from 1 to 2
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [0]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): State change started: OMX.Nvidia.aac.decoder from 1 to 2
+D/        (  983): State change started: OMX.Nvidia.reader from 1 to 2
+D/        (  987): NVRM_DAEMON(819): rt_exist=1, add client ref
+D/        (  983): State change completed: OMX.Nvidia.aac.decoder from 1 to 2
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDDEC [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  983): State change completed: OMX.Nvidia.reader from 1 to 2
+D/        (  983): Graph_EventHandler: Cmd Complete for READER [0]
+D/        (  983): Graph_EventHandler: Sem signalled for READER OMX.Nvidia.reader
+E/OMXPlayer(  983): prepare done 0x1584d8
+V/OMXPlayer(  983): worker before pause call
+E/OMXPlayer(  983): render - signal wait 0x1584d8
+E/OMXPlayer(  983): start 0x1584d8
+V/OMXPlayer(  983):   wakeup render thread
+E/OMXPlayer(  983): render - signal rx'd 0x1584d8
+D/        (  983): [0]-th component name OMX.Nvidia.clock.component
+D/        (  983): [1]-th component name OMX.Nvidia.reader
+D/        (  983): [2]-th component name OMX.Nvidia.aac.decoder
+D/        (  983): [3]-th component name android.audio
+D/        (  983): State change started: OMX.Nvidia.aac.decoder from 2 to 3
+D/        (  983): State change started: android.audio from 2 to 3
+D/        (  983): State change started: OMX.Nvidia.clock.component from 2 to 3
+D/        (  983): State change completed: OMX.Nvidia.clock.component from 2 to 3
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [0]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): State change started: OMX.Nvidia.reader from 2 to 3
+D/        (  983): State change completed: OMX.Nvidia.reader from 2 to 3
+D/        (  983): Graph_EventHandler: Cmd Complete for READER [0]
+D/        (  983): Graph_EventHandler: Sem signalled for READER OMX.Nvidia.reader
+D/        (  983): State change completed: OMX.Nvidia.aac.decoder from 2 to 3
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDDEC [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  983): State change started: android.audio from 2 to 3
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  983): State change completed: android.audio from 2 to 3
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDREND [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDREND android.audio
+D/        (  983): Graph_EventHandler: Sem signalled for AUDREND android.audio
+E/OMXPlayer(  983): playback complete: 0x1584d8
+V/OMXPlayer(  983): send MEDIA_PLAYBACK_COMPLETE 0x1584d8 
+E/OMXPlayer(  983): reset: 0x1584d8
+D/        (  983): setting block activity: 1
+D/        (  983): setting block activity: 0
+V/OMXPlayer(  983): resetting
+E/OMXPlayer(  983): reset done 0x1584d8
+E/OMXPlayer(  983): destructor: 0x1584d8
+V/OMXPlayer(  983): m_Framework: 16ec8
+D/        (  983): setting block activity: 1
+D/        (  983): [0]-th component name OMX.Nvidia.clock.component
+D/        (  983): [1]-th component name OMX.Nvidia.reader
+D/        (  983): [2]-th component name OMX.Nvidia.aac.decoder
+D/        (  983): [3]-th component name android.audio
+D/        (  983): State change started: OMX.Nvidia.clock.component from 3 to 4
+D/        (  983): State change completed: OMX.Nvidia.clock.component from 3 to 4
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [0]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): State change started: android.audio from 3 to 4
+D/        (  983): State change completed: android.audio from 3 to 4
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDREND [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDREND android.audio
+D/        (  983): State change started: OMX.Nvidia.reader from 3 to 4
+D/        (  983): State change started: OMX.Nvidia.aac.decoder from 3 to 4
+D/        (  983): State change completed: OMX.Nvidia.reader from 3 to 4
+D/        (  983): Graph_EventHandler: Cmd Complete for READER [0]
+D/        (  983): Graph_EventHandler: Sem signalled for READER OMX.Nvidia.reader
+D/        (  983): State change completed: OMX.Nvidia.aac.decoder from 3 to 4
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDDEC [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  983): setting block activity: 0
+E/OMXPlayer(  983): Worker Thread Exit -
+D/        (  987): NVRM_DAEMON(499): client process closed connection
+D/        (  983): [0]-th component name OMX.Nvidia.clock.component
+D/        (  983): [1]-th component name OMX.Nvidia.reader
+D/        (  983): [2]-th component name OMX.Nvidia.aac.decoder
+D/        (  983): [3]-th component name android.audio
+D/        (  983): State change started: OMX.Nvidia.clock.component from 4 to 2
+D/        (  983): State change completed: OMX.Nvidia.clock.component from 4 to 2
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [0]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): State change started: android.audio from 4 to 2
+D/        (  983): State change started: OMX.Nvidia.aac.decoder from 4 to 2
+D/        (  983): State change started: OMX.Nvidia.reader from 4 to 2
+D/        (  983): State change completed: OMX.Nvidia.reader from 4 to 2
+D/        (  983): Graph_EventHandler: Cmd Complete for READER [0]
+D/        (  983): Graph_EventHandler: Sem signalled for READER OMX.Nvidia.reader
+D/        (  983): State change started: android.audio from 4 to 2
+D/        (  983): State change completed: OMX.Nvidia.aac.decoder from 4 to 2
+D/        (  983): State change completed: android.audio from 4 to 2
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDDEC [0]
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDREND [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  983): Graph_EventHandler: Sem signalled for AUDREND android.audio
+D/        (  983): [0]-th component name OMX.Nvidia.clock.component
+D/        (  983): [1]-th component name OMX.Nvidia.reader
+D/        (  983): [2]-th component name OMX.Nvidia.aac.decoder
+D/        (  983): [3]-th component name android.audio
+D/        (  983): State change started: OMX.Nvidia.clock.component from 2 to 1
+D/        (  983): State change started: OMX.Nvidia.reader from 2 to 1
+D/        (  983): State change started: android.audio from 2 to 1
+D/        (  983): State change started: OMX.Nvidia.aac.decoder from 2 to 1
+D/        (  987): NVRM_DAEMON(819): rt_exist=1, add client ref
+D/        (  983): State change completed: android.audio from 2 to 1
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDREND [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDREND android.audio
+D/        (  983): State change started: OMX.Nvidia.clock.component from 2 to 1
+D/        (  983): State change completed: OMX.Nvidia.clock.component from 2 to 1
+D/        (  983): Graph_EventHandler: Cmd Complete for clock [0]
+D/        (  983): Graph_EventHandler: Sem signalled for clock OMX.Nvidia.clock.component
+D/        (  983): State change started: OMX.Nvidia.reader from 2 to 1
+D/        (  983): State change completed: OMX.Nvidia.aac.decoder from 2 to 1
+D/        (  983): Graph_EventHandler: Cmd Complete for AUDDEC [0]
+D/        (  983): Graph_EventHandler: Sem signalled for AUDDEC OMX.Nvidia.aac.decoder
+D/        (  983): State change completed: OMX.Nvidia.reader from 2 to 1
+D/        (  983): Graph_EventHandler: Cmd Complete for READER [0]
+D/        (  983): Graph_EventHandler: Sem signalled for READER OMX.Nvidia.reader
+D/        (  987): NVRM_DAEMON(499): client process closed connection
+D/        (  987): NVRM_DAEMON(499): client process closed connection
+D/        (  983): setting block activity: 0
+V/OMXPlayer(  983): resetting
+E/OMXPlayer(  983): reset done 0x1584d8
+E/OMXPlayer(  983): destructor: 0x1584d8 done 
+I/Gmail   (10573): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 588999, normalSync: true
+D/dalvikvm(15230): GC_CONCURRENT freed 465K, 47% free 3414K/6343K, external 40K/532K, paused 3ms+3ms
+D/dalvikvm(15230): GC_CONCURRENT freed 570K, 48% free 3372K/6407K, external 20K/532K, paused 2ms+2ms
+D/dalvikvm(15230): GC_CONCURRENT freed 290K, 46% free 3486K/6407K, external 20K/532K, paused 4ms+3ms
+D/dalvikvm(10573): GC_EXPLICIT freed 179K, 49% free 3202K/6215K, external 0K/0K, paused 42ms
+I/Gmail   (10573): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 589017, normalSync: true
+D/dalvikvm( 1060): GC_EXPLICIT freed 453K, 43% free 7311K/12807K, external 2327K/2406K, paused 80ms
+D/dalvikvm(12741): GC_CONCURRENT freed 458K, 51% free 2978K/6023K, external 27K/512K, paused 2ms+2ms
+D/dalvikvm(12741): GC_CONCURRENT freed 429K, 51% free 2979K/6023K, external 157K/512K, paused 2ms+2ms
+D/dalvikvm( 1186): GC_EXTERNAL_ALLOC freed 773K, 50% free 3460K/6919K, external 6894K/6928K, paused 38ms
+D/dalvikvm( 1148): GC_CONCURRENT freed 394K, 50% free 3209K/6343K, external 1834K/2136K, paused 2ms+4ms
+D/Gmail   (10573): Inserting message 1378699776195021445. synced=true
+D/Gmail   (10573): Inserting message 1378699781185379680. synced=true
+D/Gmail   (10573): Inserting message 1378700409911892756. synced=true
+D/dalvikvm(10573): GC_EXPLICIT freed 132K, 49% free 3211K/6215K, external 0K/0K, paused 55ms
+I/Gmail   (10573): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 589018, normalSync: true
+I/Gmail   (10573): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://gmail-ls/unread/^i (has extras) }
+V/NotificationService( 1060): Active profile: Default
+I/PROFILE ( 1060): Group: Gmail containing : com.google.android.gm : true
+V/NotificationService( 1060): Pkg: com.google.android.gm group: Gmail
+I/AudioService( 1060):  AudioFocus  requestAudioFocus() from android.media.AudioManager@407e73f8
+D/AudioFlinger(  983): setParameters(): io 0, keyvalue nv_a2dp_routing=0, tid 1051, calling tid 983
+W/        (  983): @@(Device.cpp-hal)@@ setOutputDevice(), device is 0 return
+W/        (  983): @@(Device.cpp-hal)@@ setOutputMute(force unmute)
+D/        (  987): @@(Audiofx_transport)@@   NvAudioFxNotifierThread()-IoDeviceVolume, IoDevice=256, LeftVolume=-134217728, RightVolume=1081126168, Mute=0   	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@	 NvAudioFxNotifierThread() - NvAudioFxEventPowerStateChange - NvAudioFxPowerState_Full		  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 2, IsEnable = 1 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 1, IsEnable = 1 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 8, IsEnable = 1 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetAudioPort() PortDirection = 2, IsEnable =1 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@	 NvAudioFxNotifierThread() - NvAudioFxEventPowerStateChange - NvAudioFxPowerState_Low		  CHR_TEST!! 
+I/AudioService( 1060):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@407e73f8
+D/AudioFlinger(  983): setParameters(): io 0, keyvalue nv_a2dp_routing=0, tid 1051, calling tid 983
+W/        (  983): @@(Device.cpp-hal)@@ setOutputDevice(), device is 0 return
+W/        (  983): @@(Device.cpp-hal)@@ setOutputMute(mute=1)
+D/        (  987): @@(Audiofx_transport)@@   NvAudioFxNotifierThread()-IoDeviceVolume, IoDevice=256, LeftVolume=-168, RightVolume=-164, Mute=1   	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@	 NvAudioFxNotifierThread() - NvAudioFxEventPowerStateChange - NvAudioFxPowerState_Full		  CHR_TEST!! 
+D/dalvikvm(10573): GC_EXPLICIT freed 89K, 49% free 3197K/6215K, external 0K/0K, paused 22ms
+D/        (  987): @@(Audiofx_transport)@@	 NvAudioFxNotifierThread() - NvAudioFxEventPowerStateChange - NvAudioFxPowerState_Off		  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 2, IsEnable = 0 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 8, IsEnable = 0 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetAudioPort() PortDirection = 2, IsEnable =0 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 1, IsEnable = 0 	  CHR_TEST!! 
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=15407 uid=10121 gids={3003, 1015}
+W/ResourceType( 1060): Skipping entry 0x7f040007 in package table 0 because it is not complex!
+W/ResourceType( 1060): Skipping entry 0x7f040008 in package table 0 because it is not complex!
+D/dalvikvm(15407): Trying to load lib /data/data/com.miadzin.shmup/lib/libopenal.so 0x405153c8
+D/dalvikvm(15407): Added shared lib /data/data/com.miadzin.shmup/lib/libopenal.so 0x405153c8
+D/dalvikvm(15407): Trying to load lib /data/data/com.miadzin.shmup/lib/libshmup.so 0x405153c8
+D/dalvikvm(15407): Added shared lib /data/data/com.miadzin.shmup/lib/libshmup.so 0x405153c8
+D/dalvikvm(15407): No JNI_OnLoad found in /data/data/com.miadzin.shmup/lib/libshmup.so 0x405153c8, skipping init
+I/libshmup(15407): [Filesystem] Initialized.
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 12649 uid 10121
+I/DEBUG   ( 3983): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3983): Build fingerprint: 'lge/lge_lge_star/p999:2.3.3/GRI40/lgp999-V21e.41fdc8a2:user/release-keys'
+I/DEBUG   ( 3983): pid: 15407, tid: 15416  >>> com.miadzin.shmup <<<
+I/DEBUG   ( 3983): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000000
+I/DEBUG   ( 3983):  r0 00000001  r1 73797365  r2 00000000  r3 8064ed84
+I/DEBUG   ( 3983):  r4 8064ed84  r5 8060ecbd  r6 0013b350  r7 00000078
+I/DEBUG   ( 3983):  r8 8060ecbd  r9 0013b350  10 00100000  fp 00000001
+I/DEBUG   ( 3983):  ip ffffff1c  sp 44ae2bc8  lr 8061add5  pc 8061abca  cpsr 20000030
+I/DEBUG   ( 3983):  d0  41a000003dcccccd  d1  3ff0000000000000
+I/DEBUG   ( 3983):  d2  4d82d98f42473e19  d3  00540ff04a277ce0
+I/DEBUG   ( 3983):  d4  3fbc71c70029df38  d5  3fe999999999999a
+I/DEBUG   ( 3983):  d6  013f0b0000000000  d7  4173f0b008000000
+I/DEBUG   ( 3983):  d8  0000000000000000  d9  0000000000000000
+I/DEBUG   ( 3983):  d10 0000000000000000  d11 0000000000000000
+I/DEBUG   ( 3983):  d12 0000000000000000  d13 0000000000000000
+I/DEBUG   ( 3983):  d14 0000000000000000  d15 0000000000000000
+I/DEBUG   ( 3983):  scr 60000010
+I/DEBUG   ( 3983): 
+I/DEBUG   ( 3983):          #00  pc 0001abca  /data/data/com.miadzin.shmup/lib/libshmup.so (prtCurrentIsWhiteChar)
+I/DEBUG   ( 3983):          #01  pc 0001add0  /data/data/com.miadzin.shmup/lib/libshmup.so (LE_skipWhiteSpace)
+I/DEBUG   ( 3983):          #02  pc 0001adf2  /data/data/com.miadzin.shmup/lib/libshmup.so (LE_readToken)
+I/DEBUG   ( 3983):          #03  pc 000128ac  /data/data/com.miadzin.shmup/lib/libshmup.so (dEngine_ReadConfig)
+I/DEBUG   ( 3983):          #04  pc 000130aa  /data/data/com.miadzin.shmup/lib/libshmup.so (dEngine_Init)
+I/DEBUG   ( 3983):          #05  pc 0000e4a0  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):          #06  pc 0000e7a6  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):          #07  pc 0000eca0  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):          #08  pc 0000e902  /data/data/com.miadzin.shmup/lib/libshmup.so (android_main)
+I/DEBUG   ( 3983):          #09  pc 0000ed60  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):          #10  pc 00011f44  /system/lib/libc.so (__thread_entry)
+I/DEBUG   ( 3983):          #11  pc 00011aec  /system/lib/libc.so (pthread_create)
+I/DEBUG   ( 3983): 
+I/DEBUG   ( 3983): code around pc:
+I/DEBUG   ( 3983): 8061aba8 f000611a 1c03f9e1 d1e52b00 46c0bd10 
+I/DEBUG   ( 3983): 8061abb8 00034204 000003d0 447b4b05 589a4a05 
+I/DEBUG   ( 3983): 8061abc8 78126912 585b4904 1c185c9b 46c04770 
+I/DEBUG   ( 3983): 8061abd8 000341be 000003d0 00000524 b083b530 
+I/DEBUG   ( 3983): 8061abe8 447c4c25 4b259001 9a0158e3 c323ca23 
+I/DEBUG   ( 3983): 
+I/DEBUG   ( 3983): code around lr:
+I/DEBUG   ( 3983): 8061adb4 1c5a691b 58e34b0a f7ff611a e000ff83 
+I/DEBUG   ( 3983): 8061adc4 f00046c0 1c03f8d3 d0052b00 fef6f7ff 
+I/DEBUG   ( 3983): 8061add4 2b001c03 e77fd000 46c0bd10 000340b4 
+I/DEBUG   ( 3983): 8061ade4 000003d0 00000664 4c44b510 f7ff447c 
+I/DEBUG   ( 3983): 8061adf4 4b43ff69 681a58e3 58e34b42 4b41601a 
+I/DEBUG   ( 3983): 
+I/DEBUG   ( 3983): stack:
+I/DEBUG   ( 3983):     44ae2b88  00000078  
+I/DEBUG   ( 3983):     44ae2b8c  8060ecbd  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2b90  0013b350  
+I/DEBUG   ( 3983):     44ae2b94  00100000  
+I/DEBUG   ( 3983):     44ae2b98  00000001  
+I/DEBUG   ( 3983):     44ae2b9c  afd19c07  /system/lib/libc.so
+I/DEBUG   ( 3983):     44ae2ba0  806484f4  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2ba4  44ae2bb4  
+I/DEBUG   ( 3983):     44ae2ba8  73797365  
+I/DEBUG   ( 3983):     44ae2bac  8061af8d  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2bb0  806484f4  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2bb4  00000000  
+I/DEBUG   ( 3983):     44ae2bb8  73797365  
+I/DEBUG   ( 3983):     44ae2bbc  806484f4  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2bc0  df002777  
+I/DEBUG   ( 3983):     44ae2bc4  e3a070ad  
+I/DEBUG   ( 3983): #01 44ae2bc8  8064ed84  
+I/DEBUG   ( 3983):     44ae2bcc  8061adf7  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/ActivityManager( 1060): Displayed com.miadzin.shmup/.TouchpadNAActivity: +377ms
+I/BootReceiver( 1060): Copying /data/tombstones/tombstone_05 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 15407) has died.
+I/WindowManager( 1060): WIN DEATH: Window{408a3ed8 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+D/Zygote  (  982): Process 15407 terminated by signal (11)
+W/ResourceType( 1060): Skipping entry 0x7f040006 in package table 0 because it is not complex!
+D/dalvikvm(12741): GC_CONCURRENT freed 465K, 51% free 2980K/6023K, external 270K/512K, paused 3ms+2ms
+D/dalvikvm(12741): GC_FOR_MALLOC freed 462K, 52% free 2944K/6023K, external 51K/512K, paused 15ms
+D/dalvikvm(12741): GC_EXPLICIT freed 187K, 52% free 2942K/6023K, external 244K/512K, paused 62ms
+D/AndroidRuntime(15771): 
+D/AndroidRuntime(15771): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+I/AndroidRuntime(15771): Heap size: -Xmx32m
+D/AndroidRuntime(15771): CheckJNI is OFF
+D/dalvikvm(15771): creating instr width table
+D/AndroidRuntime(15771): Calling main entry com.android.commands.pm.Pm
+I/ActivityManager( 1060): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=15778 uid=10032 gids={1015, 2001}
+D/dalvikvm(  982): GC_EXPLICIT freed 12K, 51% free 2679K/5379K, external 0K/0K, paused 29ms
+D/dalvikvm(  982): GC_EXPLICIT freed <1K, 51% free 2679K/5379K, external 0K/0K, paused 32ms
+D/dalvikvm(  982): GC_EXPLICIT freed <1K, 51% free 2679K/5379K, external 0K/0K, paused 33ms
+D/dalvikvm(15778): GC_EXPLICIT freed 53K, 51% free 2688K/5379K, external 0K/0K, paused 50ms
+W/ActivityManager( 1060): No content provider found for: 
+W/ActivityManager( 1060): No content provider found for: 
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 14240): hidden #16
+D/PackageParser( 1060): Scanning package: /data/app/vmdl-510013234.tmp
+D/dalvikvm( 1060): GC_CONCURRENT freed 1503K, 43% free 7428K/12807K, external 2361K/2383K, paused 2ms+5ms
+I/PackageManager( 1060): Removing non-system package:com.miadzin.shmup
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+I/ActivityManager( 1060): Start proc com.facebook.katana for service com.facebook.katana/.service.FacebookService: pid=15839 uid=10108 gids={3003, 1015}
+D/PackageManager( 1060): Scanning package com.miadzin.shmup
+I/ActivityManager( 1060): No longer want com.spotify.mobile.android.ui (pid 7839): hidden #16
+D/installd(  985): DexInv: --- BEGIN '/data/app/com.miadzin.shmup-1.apk' ---
+W/ActivityManager( 1060): Scheduling restart of crashed service com.spotify.mobile.android.ui/com.spotify.mobile.android.service.LocalService in 5000ms
+I/PackageManager( 1060): Package com.miadzin.shmup codePath changed from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk; Retaining data and using new
+I/ActivityThread(15839): Pub com.facebook.katana.provider.LoggingProvider: com.facebook.katana.provider.LoggingProvider
+D/dalvikvm(15848): creating instr width table
+D/dalvikvm(15848): DexOpt: load 4ms, verify+opt 3ms
+I/ActivityThread(15839): Pub com.facebook.katana.provider.KeyValueProvider: com.facebook.katana.provider.KeyValueProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.ChatHistoryProvider: com.facebook.katana.provider.ChatHistoryProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.CacheProvider: com.facebook.katana.provider.CacheProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.MailboxProvider: com.facebook.katana.provider.MailboxProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.UserStatusesProvider: com.facebook.katana.provider.UserStatusesProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.EventsProvider: com.facebook.katana.provider.EventsProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.NotificationsProvider: com.facebook.katana.provider.NotificationsProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.UserValuesProvider: com.facebook.katana.provider.UserValuesProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.PagesProvider: com.facebook.katana.provider.PagesProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.PhotosProvider: com.facebook.katana.provider.PhotosProvider
+I/ActivityThread(15839): Pub com.facebook.katana.provider.ConnectionsProvider: com.facebook.katana.provider.ConnectionsProvider
+D/installd(  985): DexInv: --- END '/data/app/com.miadzin.shmup-1.apk' (success) ---
+I/PackageManager( 1060): Unpacking native libraries for /data/app/com.miadzin.shmup-1.apk
+D/NativeHelper( 1060): Found gdbserver: lib/armeabi/gdbserver
+D/dalvikvm(15839): GC_CONCURRENT freed 148K, 48% free 2987K/5639K, external 0K/0K, paused 2ms+3ms
+D/installd(  985): DexInv: --- BEGIN '/data/app/com.miadzin.shmup-1.apk' ---
+D/dalvikvm(15852): creating instr width table
+D/dalvikvm(15852): DexOpt: load 4ms, verify+opt 2ms
+D/installd(  985): DexInv: --- END '/data/app/com.miadzin.shmup-1.apk' (success) ---
+D/PackageManager( 1060):   Activities: com.miadzin.shmup.TouchpadNAActivity
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+W/PackageManager( 1060): Code path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+W/PackageManager( 1060): Resource path for pkg : com.miadzin.shmup changing from /data/app/com.miadzin.shmup-2.apk to /data/app/com.miadzin.shmup-1.apk
+D/dalvikvm(15839): GC_CONCURRENT freed 246K, 46% free 3243K/5959K, external 0K/0K, paused 2ms+2ms
+D/dalvikvm(15839): GC_EXTERNAL_ALLOC freed 29K, 47% free 3216K/5959K, external 0K/0K, paused 29ms
+I/installd(  985): move /data/dalvik-cache/data@app@com.miadzin.shmup-1.apk@classes.dex -> /data/dalvik-cache/data@app@com.miadzin.shmup-1.apk@classes.dex
+D/PackageManager( 1060): New package installed in /data/app/com.miadzin.shmup-1.apk
+D/dalvikvm( 1060): GC_CONCURRENT freed 1552K, 42% free 7536K/12807K, external 1871K/2383K, paused 2ms+8ms
+I/ActivityManager( 1060): Force stopping package com.miadzin.shmup uid=10121
+D/dalvikvm( 1186): GC_EXPLICIT freed 295K, 52% free 3369K/6919K, external 6576K/7038K, paused 26ms
+D/dalvikvm(14521): GC_EXPLICIT freed 165K, 46% free 3950K/7303K, external 2498K/3120K, paused 39ms
+D/szipinf ( 1060): Initializing inflate state
+D/szipinf ( 1060): Initializing inflate state
+I/ActivityManager( 1060): Start proc com.noshufou.android.su for broadcast com.noshufou.android.su/.UninstallReceiver: pid=15862 uid=10011 gids={1015, 3003}
+D/szipinf ( 1060): Initializing inflate state
+D/Sources (14521): Creating external source for type=fm.last.android.account, packageName=fm.last.android
+D/Sources (14521): Creating external source for type=com.skype.contacts.sync, packageName=com.skype.raider
+D/Sources (14521): Creating external source for type=com.twitter.android.auth.login, packageName=com.twitter.android
+D/Sources (14521): Creating external source for type=com.facebook.auth.login, packageName=com.facebook.katana
+D/Sources (14521): Creating external source for type=fm.last.android.account, packageName=fm.last.android
+D/Sources (14521): Creating external source for type=com.skype.contacts.sync, packageName=com.skype.raider
+D/Sources (14521): Creating external source for type=com.twitter.android.auth.login, packageName=com.twitter.android
+D/Sources (14521): Creating external source for type=com.facebook.auth.login, packageName=com.facebook.katana
+I/ThemeManager(  787): Handling replaced theme package: com.miadzin.shmup
+D/dalvikvm( 1060): GC_EXPLICIT freed 1096K, 44% free 7297K/12807K, external 1871K/2383K, paused 61ms
+I/installd(  985): unlink /data/dalvik-cache/data@app@com.miadzin.shmup-2.apk@classes.dex
+D/AndroidRuntime(15771): Shutting down VM
+D/dalvikvm(15771): GC_CONCURRENT freed 100K, 71% free 298K/1024K, external 0K/0K, paused 1ms+1ms
+D/jdwp    (15771): adbd disconnected
+D/szipinf (15862): Initializing inflate state
+D/szipinf ( 1060): Initializing inflate state
+D/szipinf ( 1060): Initializing inflate state
+D/szipinf ( 1060): Initializing inflate state
+D/VoiceDialerReceiver( 9346): onReceive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.miadzin.shmup flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+V/RecognizerEngine( 9346): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+D/AirMail ( 1621): CoreReceiver action: android.intent.action.PACKAGE_REMOVED
+D/AirMail ( 1621): Package Removed: com.miadzin.shmup
+I/ActivityManager( 1060): No longer want com.svox.pico (pid 6317): hidden #16
+D/szipinf ( 1060): Initializing inflate state
+I/ActivityManager( 1060): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=15878 uid=10005 gids={}
+I/ActivityThread(15878): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+D/InstallReceiver(15862): com.miadzin.shmup
+D/VoiceDialerReceiver( 9346): onReceive Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.miadzin.shmup flg=0x10000000 cmp=com.android.voicedialer/.VoiceDialerReceiver (has extras) }
+V/RecognizerEngine( 9346): deleteCachedGrammarFiles /data/data/com.android.voicedialer/files/openentries.txt
+I/ActivityManager( 1060): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.AppInstalledReceiver: pid=15890 uid=10006 gids={}
+I/ActivityManager( 1060): No longer want com.google.android.apps.maps:FriendService (pid 6335): hidden #16
+I/ActivityManager( 1060): Start proc com.google.android.apps.maps:FriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.android.ServiceReceiver: pid=15905 uid=10097 gids={3003, 1015}
+I/ActivityManager( 1060): No longer want com.google.android.googlequicksearchbox (pid 6345): hidden #16
+D/dalvikvm(15905): GC_CONCURRENT freed 137K, 46% free 3047K/5639K, external 0K/0K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 305K, 46% free 3392K/6215K, external 4K/516K, paused 2ms+2ms
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+D/dalvikvm(15905): GC_CONCURRENT freed 114K, 43% free 3443K/6023K, external 0K/0K, paused 2ms+3ms
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+I/com.keramidas.TitaniumBackup.schedules.BootReceiver(  796): Application package was replaced (eg: upgraded) => Scheduling next wake-up ...
+I/com.keramidas.TitaniumBackup.schedules.SchedulerService(  796): scheduleNextWakeup(): Invoked with idToExcludeForToday=null
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+D/szipinf (14521): Initializing inflate state
+I/com.keramidas.TitaniumBackup.schedules.SchedulerService(  796): scheduleNextWakeup(): No next wakeup scheduled.
+I/ActivityManager( 1060): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.CorporaUpdateReceiver: pid=15923 uid=10023 gids={3003}
+I/ActivityManager( 1060): No longer want com.twitter.android (pid 15230): hidden #16
+I/ActivityThread(15923): Pub com.google.android.googlequicksearchbox.google: com.google.android.googlequicksearchbox.google.GoogleSuggestionProvider
+I/ActivityThread(15923): Pub com.google.android.googlequicksearchbox.shortcuts: com.google.android.googlequicksearchbox.ShortcutsProvider
+I/ActivityManager( 1060): No longer want com.google.android.gm (pid 10573): hidden #16
+I/ActivityManager( 1060): Start proc com.spotify.mobile.android.ui for service com.spotify.mobile.android.ui/com.spotify.mobile.android.service.LocalService: pid=15938 uid=10126 gids={3003, 1015}
+I/ActivityThread(15938): Pub com.spotify.mobile.android.ui.PlaylistSearchProvider: com.spotify.mobile.android.model.PlaylistSearchProvider
+I/ActivityThread(15938): Pub com.spotify.mobile.android.ui.SearchProvider: com.spotify.mobile.android.model.SearchSuggestionSampleProvider
+I/ActivityThread(15938): Pub com.spotify.mobile.android.model.StarredTracksContentProvider: com.spotify.mobile.android.model.StarredTracksContentProvider
+D/dalvikvm(15938): Trying to load lib /data/data/com.spotify.mobile.android.ui/lib/libspotifyjni-arm.so 0x40515400
+D/dalvikvm(15938): Added shared lib /data/data/com.spotify.mobile.android.ui/lib/libspotifyjni-arm.so 0x40515400
+D/SpotifyJava(15938): PHONE STATE - IDLE
+D/dalvikvm(15839): GC_CONCURRENT freed 377K, 45% free 3566K/6407K, external 4K/516K, paused 2ms+3ms
+D/dalvikvm(15839): GC_CONCURRENT freed 448K, 45% free 3687K/6599K, external 4K/516K, paused 2ms+3ms
+D/dalvikvm(15839): GC_CONCURRENT freed 381K, 43% free 3818K/6663K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 548K, 44% free 3842K/6855K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 514K, 44% free 3840K/6855K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 518K, 45% free 3834K/6855K, external 0K/512K, paused 1ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 507K, 45% free 3839K/6855K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 486K, 44% free 3865K/6855K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 623K, 46% free 3753K/6855K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 513K, 46% free 3752K/6855K, external 0K/512K, paused 1ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 453K, 45% free 3811K/6855K, external 0K/512K, paused 2ms+3ms
+D/dalvikvm(15839): GC_CONCURRENT freed 513K, 45% free 3812K/6855K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 418K, 44% free 3906K/6855K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 661K, 46% free 3780K/6919K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed 335K, 46% free 3755K/6919K, external 0K/512K, paused 21ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed 96K, 44% free 3942K/6919K, external 0K/512K, paused 19ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed <1K, 43% free 3950K/6919K, external 0K/512K, paused 20ms
+I/dalvikvm(15839): Total arena pages for JIT: 11
+D/dalvikvm(12741): GC_CONCURRENT freed 452K, 51% free 2960K/6023K, external 27K/512K, paused 1ms+1ms
+D/dalvikvm(12741): GC_CONCURRENT freed 412K, 51% free 2995K/6023K, external 157K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 566K, 45% free 3891K/6983K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed 39K, 45% free 3851K/6983K, external 0K/512K, paused 17ms
+I/dalvikvm-heap(15839): Grow heap (frag case) to 6.192MB for 26776-byte allocation
+D/dalvikvm(15839): GC_FOR_MALLOC freed 4K, 46% free 3872K/7047K, external 0K/512K, paused 17ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed 119K, 45% free 3898K/7047K, external 0K/512K, paused 32ms
+I/dalvikvm-heap(15839): Grow heap (frag case) to 6.290MB for 81284-byte allocation
+D/dalvikvm(15839): GC_FOR_MALLOC freed 38K, 46% free 3939K/7175K, external 0K/512K, paused 32ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed <1K, 46% free 3939K/7175K, external 0K/512K, paused 22ms
+I/dalvikvm-heap(15839): Grow heap (frag case) to 6.407MB for 162624-byte allocation
+D/dalvikvm(15839): GC_FOR_MALLOC freed 0K, 45% free 4098K/7367K, external 0K/512K, paused 21ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed 82K, 45% free 4106K/7367K, external 0K/512K, paused 19ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed <1K, 44% free 4165K/7367K, external 0K/512K, paused 20ms
+I/dalvikvm-heap(15839): Grow heap (frag case) to 6.588MB for 120756-byte allocation
+D/dalvikvm(15839): GC_FOR_MALLOC freed 0K, 43% free 4283K/7495K, external 0K/512K, paused 20ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed 0K, 43% free 4283K/7495K, external 0K/512K, paused 18ms
+I/dalvikvm-heap(15839): Grow heap (frag case) to 6.646MB for 60386-byte allocation
+D/dalvikvm(15839): GC_FOR_MALLOC freed 0K, 43% free 4342K/7559K, external 0K/512K, paused 17ms
+D/dalvikvm(15839): GC_FOR_MALLOC freed 118K, 45% free 4224K/7559K, external 0K/512K, paused 18ms
+I/dalvikvm-heap(15839): Grow heap (frag case) to 6.761MB for 241496-byte allocation
+D/dalvikvm(15839): GC_FOR_MALLOC freed <1K, 43% free 4459K/7815K, external 0K/512K, paused 18ms
+I/dalvikvm-heap(15839): Grow heap (frag case) to 6.875MB for 120756-byte allocation
+D/dalvikvm(15839): GC_FOR_MALLOC freed 0K, 43% free 4577K/7943K, external 0K/512K, paused 18ms
+D/dalvikvm(15839): GC_CONCURRENT freed 609K, 44% free 4520K/7943K, external 0K/512K, paused 2ms+4ms
+D/dalvikvm(15839): GC_CONCURRENT freed 477K, 43% free 4599K/7943K, external 0K/512K, paused 2ms+4ms
+D/dalvikvm(15839): GC_CONCURRENT freed 525K, 42% free 4655K/7943K, external 0K/512K, paused 2ms+4ms
+D/dalvikvm(15839): GC_CONCURRENT freed 1049K, 48% free 4149K/7943K, external 0K/512K, paused 3ms+5ms
+D/dalvikvm(15839): GC_CONCURRENT freed 570K, 49% free 4091K/7943K, external 0K/512K, paused 3ms+2ms
+D/dalvikvm(15839): GC_CONCURRENT freed 507K, 49% free 4095K/7943K, external 0K/512K, paused 2ms+3ms
+D/dalvikvm( 9346): GC_EXPLICIT freed 10K, 50% free 2692K/5379K, external 0K/0K, paused 32ms
+D/dalvikvm(15839): GC_CONCURRENT freed 477K, 49% free 4130K/7943K, external 4K/512K, paused 3ms+5ms
+D/dalvikvm(15839): GC_CONCURRENT freed 451K, 49% free 4072K/7943K, external 0K/512K, paused 4ms+3ms
+D/dalvikvm(14521): GC_EXPLICIT freed 645K, 45% free 4038K/7303K, external 2498K/3120K, paused 30ms
+D/dalvikvm( 1060): GC_EXPLICIT freed 616K, 43% free 7332K/12807K, external 2121K/2378K, paused 61ms
+I/ActivityManager( 1060): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.miadzin.shmup/.TouchpadNAActivity bnds=[5,410][115,540] } from pid 1186
+I/ActivityManager( 1060): Start proc com.miadzin.shmup for activity com.miadzin.shmup/.TouchpadNAActivity: pid=15995 uid=10121 gids={3003, 1015}
+W/ResourceType( 1060): Skipping entry 0x7f040007 in package table 0 because it is not complex!
+W/ResourceType( 1060): Skipping entry 0x7f040008 in package table 0 because it is not complex!
+D/dalvikvm(15995): Trying to load lib /data/data/com.miadzin.shmup/lib/libopenal.so 0x40514618
+D/dalvikvm(15995): Added shared lib /data/data/com.miadzin.shmup/lib/libopenal.so 0x40514618
+D/dalvikvm(15995): Trying to load lib /data/data/com.miadzin.shmup/lib/libshmup.so 0x40514618
+D/dalvikvm(15995): Added shared lib /data/data/com.miadzin.shmup/lib/libshmup.so 0x40514618
+D/dalvikvm(15995): No JNI_OnLoad found in /data/data/com.miadzin.shmup/lib/libshmup.so 0x40514618, skipping init
+I/RealTimeChat( 7619): Sending ping to bunch
+I/libshmup(15995): [Filesystem] Initialized.
+W/InputManagerService( 1060): Got RemoteException sending setActive(false) notification to pid 15407 uid 10121
+I/ActivityManager( 1060): No longer want com.cyanogenmod.cmparts (pid 12708): hidden #16
+I/DEBUG   ( 3983): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+I/DEBUG   ( 3983): Build fingerprint: 'lge/lge_lge_star/p999:2.3.3/GRI40/lgp999-V21e.41fdc8a2:user/release-keys'
+I/DEBUG   ( 3983): pid: 15995, tid: 16003  >>> com.miadzin.shmup <<<
+I/DEBUG   ( 3983): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000000
+I/DEBUG   ( 3983):  r0 00000001  r1 73797365  r2 00000000  r3 8064ed84
+I/DEBUG   ( 3983):  r4 8064ed84  r5 8060ecbd  r6 0013b350  r7 00000078
+I/DEBUG   ( 3983):  r8 8060ecbd  r9 0013b350  10 00100000  fp 00000001
+I/DEBUG   ( 3983):  ip ffffff1c  sp 44ae2bc8  lr 8061add5  pc 8061abca  cpsr 20000030
+I/DEBUG   ( 3983):  d0  41a000003dcccccd  d1  3ff0000000000000
+I/DEBUG   ( 3983):  d2  4d82d97642473df3  d3  00540ff04a277cc0
+I/DEBUG   ( 3983):  d4  3fbc71c70029df30  d5  3fe999999999999a
+I/DEBUG   ( 3983):  d6  013f0b0000000000  d7  4173f0b008000000
+I/DEBUG   ( 3983):  d8  0000000000000000  d9  0000000000000000
+I/DEBUG   ( 3983):  d10 0000000000000000  d11 0000000000000000
+I/DEBUG   ( 3983):  d12 0000000000000000  d13 0000000000000000
+I/DEBUG   ( 3983):  d14 0000000000000000  d15 0000000000000000
+I/DEBUG   ( 3983):  scr 60000010
+I/DEBUG   ( 3983): 
+I/RealTimeChat( 7619): Ping response from backend
+I/DEBUG   ( 3983):          #00  pc 0001abca  /data/data/com.miadzin.shmup/lib/libshmup.so (prtCurrentIsWhiteChar)
+I/DEBUG   ( 3983):          #01  pc 0001add0  /data/data/com.miadzin.shmup/lib/libshmup.so (LE_skipWhiteSpace)
+I/DEBUG   ( 3983):          #02  pc 0001adf2  /data/data/com.miadzin.shmup/lib/libshmup.so (LE_readToken)
+I/DEBUG   ( 3983):          #03  pc 000128ac  /data/data/com.miadzin.shmup/lib/libshmup.so (dEngine_ReadConfig)
+I/DEBUG   ( 3983):          #04  pc 000130aa  /data/data/com.miadzin.shmup/lib/libshmup.so (dEngine_Init)
+I/DEBUG   ( 3983):          #05  pc 0000e4a0  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):          #06  pc 0000e7a6  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):          #07  pc 0000eca0  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):          #08  pc 0000e902  /data/data/com.miadzin.shmup/lib/libshmup.so (android_main)
+I/DEBUG   ( 3983):          #09  pc 0000ed60  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):          #10  pc 00011f44  /system/lib/libc.so (__thread_entry)
+I/DEBUG   ( 3983):          #11  pc 00011aec  /system/lib/libc.so (pthread_create)
+I/DEBUG   ( 3983): 
+I/DEBUG   ( 3983): code around pc:
+I/DEBUG   ( 3983): 8061aba8 f000611a 1c03f9e1 d1e52b00 46c0bd10 
+I/DEBUG   ( 3983): 8061abb8 00034204 000003d0 447b4b05 589a4a05 
+I/DEBUG   ( 3983): 8061abc8 78126912 585b4904 1c185c9b 46c04770 
+I/DEBUG   ( 3983): 8061abd8 000341be 000003d0 00000524 b083b530 
+I/DEBUG   ( 3983): 8061abe8 447c4c25 4b259001 9a0158e3 c323ca23 
+I/DEBUG   ( 3983): 
+I/DEBUG   ( 3983): code around lr:
+I/DEBUG   ( 3983): 8061adb4 1c5a691b 58e34b0a f7ff611a e000ff83 
+I/DEBUG   ( 3983): 8061adc4 f00046c0 1c03f8d3 d0052b00 fef6f7ff 
+I/DEBUG   ( 3983): 8061add4 2b001c03 e77fd000 46c0bd10 000340b4 
+I/DEBUG   ( 3983): 8061ade4 000003d0 00000664 4c44b510 f7ff447c 
+I/DEBUG   ( 3983): 8061adf4 4b43ff69 681a58e3 58e34b42 4b41601a 
+I/DEBUG   ( 3983): 
+I/DEBUG   ( 3983): stack:
+I/DEBUG   ( 3983):     44ae2b88  00000078  
+I/DEBUG   ( 3983):     44ae2b8c  8060ecbd  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2b90  0013b350  
+I/DEBUG   ( 3983):     44ae2b94  00100000  
+I/DEBUG   ( 3983):     44ae2b98  00000001  
+I/DEBUG   ( 3983):     44ae2b9c  afd19c07  /system/lib/libc.so
+I/DEBUG   ( 3983):     44ae2ba0  806484f4  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2ba4  44ae2bb4  
+I/DEBUG   ( 3983):     44ae2ba8  73797365  
+I/DEBUG   ( 3983):     44ae2bac  8061af8d  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2bb0  806484f4  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2bb4  00000000  
+I/DEBUG   ( 3983):     44ae2bb8  73797365  
+I/DEBUG   ( 3983):     44ae2bbc  806484f4  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/DEBUG   ( 3983):     44ae2bc0  df002777  
+I/DEBUG   ( 3983):     44ae2bc4  e3a070ad  
+I/DEBUG   ( 3983): #01 44ae2bc8  8064ed84  
+I/DEBUG   ( 3983):     44ae2bcc  8061adf7  /data/data/com.miadzin.shmup/lib/libshmup.so
+I/ActivityManager( 1060): Displayed com.miadzin.shmup/.TouchpadNAActivity: +378ms
+D/dalvikvm( 7619): GC_CONCURRENT freed 412K, 49% free 3292K/6343K, external 0K/0K, paused 2ms+3ms
+I/BootReceiver( 1060): Copying /data/tombstones/tombstone_06 to DropBox (SYSTEM_TOMBSTONE)
+I/ActivityManager( 1060): Process com.miadzin.shmup (pid 15995) has died.
+I/WindowManager( 1060): WIN DEATH: Window{409471e0 com.miadzin.shmup/com.miadzin.shmup.TouchpadNAActivity paused=false}
+D/Zygote  (  982): Process 15995 terminated by signal (11)
+W/ResourceType( 1060): Skipping entry 0x7f040006 in package table 0 because it is not complex!
+D/dalvikvm(  814): GC_EXPLICIT freed 9K, 49% free 3027K/5831K, external 0K/0K, paused 66ms
+D/dalvikvm(  787): GC_EXPLICIT freed 16K, 50% free 2707K/5379K, external 0K/0K, paused 51ms
+D/dalvikvm(  796): GC_EXPLICIT freed 16K, 49% free 2785K/5379K, external 0K/512K, paused 35ms
+D/dalvikvm(  837): GC_EXPLICIT freed 7K, 46% free 3165K/5831K, external 0K/0K, paused 77ms
+D/dalvikvm(  861): GC_EXPLICIT freed 8K, 42% free 3680K/6343K, external 0K/0K, paused 41ms
+D/dalvikvm(25638): GC_EXPLICIT freed 6K, 47% free 3818K/7111K, external 0K/0K, paused 50ms
+D/dalvikvm( 1621): GC_EXPLICIT freed 6K, 52% free 2814K/5767K, external 0K/0K, paused 78ms
+D/dalvikvm(12741): GC_CONCURRENT freed 497K, 52% free 2948K/6023K, external 270K/512K, paused 3ms+2ms
+D/dalvikvm(12741): GC_CONCURRENT freed 448K, 51% free 2963K/6023K, external 69K/512K, paused 2ms+2ms
+D/dalvikvm(12741): GC_EXPLICIT freed 191K, 52% free 2944K/6023K, external 244K/512K, paused 61ms
+D/AirMail ( 1621): keepalive read
+I/ActivityManager( 1060): Start proc com.google.android.gm for service com.google.android.gm/.provider.MailSyncAdapterService: pid=16279 uid=10106 gids={3003, 1015}
+I/ActivityThread(16279): Pub gmail-ls: com.google.android.gm.provider.MailProvider
+I/ActivityThread(16279): Pub gmail-downloads: com.google.android.gm.downloadprovider.DownloadProvider
+I/ActivityThread(16279): Pub com.google.android.gm.attachmentspreviews: com.google.android.gm.AttachmentPreviewProvider
+I/ActivityThread(16279): Pub com.google.android.gmail.SuggestionProvider: com.google.android.gm.SuggestionsProvider
+D/dalvikvm(16279): GC_CONCURRENT freed 209K, 49% free 2923K/5639K, external 0K/0K, paused 1ms+2ms
+I/Database(16279): sqlite returned: error code = 0, msg = Recovered 9 frames from WAL file /data/data/com.google.android.gm/databases/downloads.db-wal
+I/Gmail   (16279): calculateUnknownSyncRationalesAndPurgeInBackground: queueing
+I/Gmail   (16279): calculateUnknownSyncRationalesAndPurgeInBackground: running
+I/Gmail   (16279): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 589018, normalSync: true
+D/dalvikvm(16279): GC_CONCURRENT freed 302K, 48% free 3088K/5895K, external 0K/0K, paused 4ms+2ms
+D/dalvikvm(16279): GC_CONCURRENT freed 449K, 49% free 3072K/6023K, external 0K/0K, paused 3ms+2ms
+D/dalvikvm(16279): GC_EXPLICIT freed 158K, 49% free 3118K/6023K, external 0K/0K, paused 39ms
+I/Gmail   (16279): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 589032, normalSync: true
+D/Gmail   (16279): Inserting message 1378700619355674359. synced=true
+D/dalvikvm(16279): GC_EXPLICIT freed 75K, 48% free 3156K/6023K, external 0K/0K, paused 37ms
+I/Gmail   (16279): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 589034, normalSync: true
+I/ActivityManager( 1060): No longer want android.process.media (pid 12718): hidden #16
+I/ActivityManager( 1060): No longer want com.google.android.apps.plus (pid 7619): hidden #16
+W/ActivityManager( 1060): Scheduling restart of crashed service com.google.android.apps.plus/com.google.android.apps.uploader.UploadService in 5000ms
+W/ActivityManager( 1060): Scheduling restart of crashed service com.google.android.apps.plus/com.google.android.apps.uploader.cloudsync.CloudSyncWatcherService in 15000ms
+I/ActivityManager( 1060): Start proc com.google.android.apps.plus for service com.google.android.apps.plus/com.google.android.apps.uploader.UploadService: pid=16434 uid=10102 gids={3003, 1015}
+I/ActivityThread(16434): Pub com.google.plus.notifications: com.google.android.apps.circles.notifications.content.NotificationsProvider
+I/ActivityThread(16434): Pub com.google.plus.uploader: com.google.android.apps.uploader.UploadsContentProvider
+I/ActivityThread(16434): Pub com.google.plus.platform: com.google.android.apps.circles.platform.content.PlatformProvider
+I/GooglePlusOne(16434): Loading 7 preferences
+D/dalvikvm(16434): GC_CONCURRENT freed 186K, 47% free 3036K/5639K, external 0K/0K, paused 3ms+2ms
+D/MediaUploader(16434): UploadService.onCreate
+D/MediaUploader(16434): UploadManager.onCreate
+D/MediaUploader(16434): CloudSyncWatcherService.onCreate
+D/MediaUploader(16434): CloudSyncWatcherService.onStartCommand null
+D/MediaUploader(16434): PhoneStateBroadcastReceiver.onReceive: Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000000 (has extras) }
+D/MediaUploader(16434): Battery change, level - 72; plugged in - true
+D/MediaUploader(16434): updateQueueState: RUNNING
+W/GooglePlusOne(16434): ImageManagerBroadcastReceiver calling ImageManager.clearErrors
+D/MediaUploader(16434): UploadService.onHandleIntent: Intent { act=com.google.android.apps.uploader.action.UPLOAD_WAKEUP cmp=com.google.android.apps.plus/com.google.android.apps.uploader.UploadService }
+D/MediaUploader(16434): UploadsQueue.getAllPending: elapsed msec=40
+D/MediaUploader(16434): UploadsQueue.getAllPending: elapsed msec=3
+D/MediaUploader(16434): updateQueueState: RUNNING
+I/Gmail   (16279): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 589034, normalSync: true
+D/dalvikvm(16279): GC_EXPLICIT freed 241K, 48% free 3159K/6023K, external 0K/0K, paused 38ms
+I/Gmail   (16279): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 589055, normalSync: true
+D/Gmail   (16279): Inserting message 1378700657633316590. synced=true
+D/dalvikvm(12741): GC_CONCURRENT freed 462K, 51% free 2978K/6023K, external 27K/512K, paused 2ms+1ms
+D/dalvikvm(12741): GC_CONCURRENT freed 429K, 51% free 2979K/6023K, external 157K/512K, paused 2ms+2ms
+D/dalvikvm(16279): GC_EXPLICIT freed 122K, 48% free 3164K/6023K, external 0K/0K, paused 22ms
+I/Gmail   (16279): MainSyncRequestProto: lowestBkwdConvoId: 0, highestHandledServerOp: 589056, normalSync: true
+I/Gmail   (16279): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://gmail-ls/unread/^i (has extras) }
+I/ActivityManager( 1060): Start proc com.cyanogenmod.cmparts for broadcast com.cyanogenmod.cmparts/.intents.LEDNotificationReceiver: pid=16494 uid=1000 gids={3002, 3001, 3003, 1015}
+D/dalvikvm(  982): GC_EXPLICIT freed 11K, 51% free 2679K/5379K, external 0K/0K, paused 32ms
+V/NotificationService( 1060): Active profile: Default
+I/PROFILE ( 1060): Group: Gmail containing : com.google.android.gm : true
+V/NotificationService( 1060): Pkg: com.google.android.gm group: Gmail
+D/dalvikvm(  982): GC_EXPLICIT freed <1K, 51% free 2679K/5379K, external 0K/0K, paused 53ms
+D/dalvikvm(  982): GC_EXPLICIT freed <1K, 51% free 2679K/5379K, external 0K/0K, paused 20ms
+I/ActivityManager( 1060): Start proc android.process.media for content provider com.android.providers.media/.MediaProvider: pid=16506 uid=10021 gids={1015, 2001, 3003}
+D/szipinf (16494): Initializing inflate state
+I/ActivityThread(16494): Pub com.cyanogenmod.cmparts.provider.Settings: com.cyanogenmod.cmparts.provider.SettingsProvider
+I/ActivityThread(16506): Pub downloads: com.android.providers.downloads.DownloadProvider
+D/szipinf (16506): Initializing inflate state
+I/ActivityThread(16506): Pub drm: com.android.providers.drm.DrmProvider
+I/ActivityThread(16506): Pub media: com.android.providers.media.MediaProvider
+V/MediaProvider(16506): Attached volume: internal
+V/MediaProvider(16506): /mnt/sdcard volume ID: 912417846
+V/MediaProvider(16506): Attached volume: external
+I/ActivityManager( 1060): No longer want com.android.defcontainer (pid 15778): hidden #16
+I/AudioService( 1060):  AudioFocus  requestAudioFocus() from android.media.AudioManager@407e73f8
+D/AudioFlinger(  983): setParameters(): io 0, keyvalue nv_a2dp_routing=0, tid 1051, calling tid 983
+W/        (  983): @@(Device.cpp-hal)@@ setOutputDevice(), device is 0 return
+W/        (  983): @@(Device.cpp-hal)@@ setOutputMute(force unmute)
+D/        (  987): @@(Audiofx_transport)@@   NvAudioFxNotifierThread()-IoDeviceVolume, IoDevice=256, LeftVolume=-134217728, RightVolume=1081126168, Mute=0   	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@	 NvAudioFxNotifierThread() - NvAudioFxEventPowerStateChange - NvAudioFxPowerState_Full		  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 2, IsEnable = 1 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 1, IsEnable = 1 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 8, IsEnable = 1 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetAudioPort() PortDirection = 2, IsEnable =1 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@	 NvAudioFxNotifierThread() - NvAudioFxEventPowerStateChange - NvAudioFxPowerState_Low		  CHR_TEST!! 
+I/ActivityManager( 1060): No longer want com.facebook.katana (pid 15839): hidden #16
+I/AudioService( 1060):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@407e73f8
+D/AudioFlinger(  983): setParameters(): io 0, keyvalue nv_a2dp_routing=0, tid 1051, calling tid 983
+W/        (  983): @@(Device.cpp-hal)@@ setOutputDevice(), device is 0 return
+W/        (  983): @@(Device.cpp-hal)@@ setOutputMute(mute=1)
+D/        (  987): @@(Audiofx_transport)@@   NvAudioFxNotifierThread()-IoDeviceVolume, IoDevice=256, LeftVolume=-168, RightVolume=-164, Mute=1   	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@	 NvAudioFxNotifierThread() - NvAudioFxEventPowerStateChange - NvAudioFxPowerState_Full		  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@	 NvAudioFxNotifierThread() - NvAudioFxEventPowerStateChange - NvAudioFxPowerState_Off		  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 2, IsEnable = 0 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 8, IsEnable = 0 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetAudioPort() PortDirection = 2, IsEnable =0 	  CHR_TEST!! 
+D/        (  987): @@(Audiofx_transport)@@   SetPower() Port = 1, IsEnable = 0 	  CHR_TEST!! 
+D/dalvikvm(12741): GC_CONCURRENT freed 484K, 51% free 2964K/6023K, external 270K/512K, paused 2ms+1ms
+D/dalvikvm(12741): GC_FOR_MALLOC freed 446K, 51% free 2961K/6023K, external 51K/512K, paused 13ms
+D/dalvikvm( 1060): GC_EXTERNAL_ALLOC freed 1331K, 44% free 7294K/12807K, external 2377K/2378K, paused 60ms
+D/dalvikvm( 1186): GC_EXTERNAL_ALLOC freed 652K, 51% free 3409K/6919K, external 7014K/7038K, paused 44ms
+D/dalvikvm(12741): GC_EXPLICIT freed 181K, 52% free 2942K/6023K, external 244K/512K, paused 46ms
+D/dalvikvm(12741): GC_CONCURRENT freed 452K, 51% free 2978K/6023K, external 27K/512K, paused 3ms+2ms
+D/dalvikvm(12741): GC_FOR_MALLOC freed 462K, 52% free 2947K/6023K, external 157K/512K, paused 14ms
+I/ActivityManager( 1060): Start proc com.facebook.katana for broadcast com.facebook.katana/.C2DMReceiver: pid=17006 uid=10108 gids={3003, 1015}
+I/ActivityThread(17006): Pub com.facebook.katana.provider.LoggingProvider: com.facebook.katana.provider.LoggingProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.KeyValueProvider: com.facebook.katana.provider.KeyValueProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.ChatHistoryProvider: com.facebook.katana.provider.ChatHistoryProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.CacheProvider: com.facebook.katana.provider.CacheProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.MailboxProvider: com.facebook.katana.provider.MailboxProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.UserStatusesProvider: com.facebook.katana.provider.UserStatusesProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.EventsProvider: com.facebook.katana.provider.EventsProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.NotificationsProvider: com.facebook.katana.provider.NotificationsProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.UserValuesProvider: com.facebook.katana.provider.UserValuesProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.PagesProvider: com.facebook.katana.provider.PagesProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.PhotosProvider: com.facebook.katana.provider.PhotosProvider
+I/ActivityThread(17006): Pub com.facebook.katana.provider.ConnectionsProvider: com.facebook.katana.provider.ConnectionsProvider
+D/dalvikvm(17006): GC_CONCURRENT freed 185K, 47% free 2999K/5639K, external 0K/0K, paused 2ms+2ms
+D/dalvikvm(17006): GC_EXTERNAL_ALLOC freed 154K, 46% free 3192K/5831K, external 0K/0K, paused 25ms
+V/NotificationService( 1060): Active profile: Default
+I/PROFILE ( 1060): Group: Gmail containing : com.facebook.katana : false
+I/PROFILE ( 1060): Group: Phone containing : com.facebook.katana : false
+I/PROFILE ( 1060): Group: Calendar containing : com.facebook.katana : false
+I/PROFILE ( 1060): Group: Email containing : com.facebook.katana : false
+I/PROFILE ( 1060): Group: SMS containing : com.facebook.katana : false
+V/ProfileManager( 1060): No active group, returning default: Other
+V/NotificationService( 1060): Pkg: com.facebook.katana group: Other
+W/GTalkService( 1222): [DataMsgMgr] broadcast intent callback: result=CANCELLED forIntent { act=com.google.android.c2dm.intent.RECEIVE cat=[com.facebook.katana] (has extras) }
+D/dalvikvm(17006): GC_CONCURRENT freed 175K, 45% free 3290K/5959K, external 4K/516K, paused 2ms+2ms
+D/dalvikvm(17006): GC_CONCURRENT freed 301K, 46% free 3452K/6279K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(17006): GC_CONCURRENT freed 436K, 47% free 3456K/6407K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(17006): GC_CONCURRENT freed 477K, 47% free 3454K/6407K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(17006): GC_CONCURRENT freed 502K, 46% free 3505K/6471K, external 0K/512K, paused 1ms+2ms
+D/dalvikvm(17006): GC_CONCURRENT freed 491K, 47% free 3476K/6471K, external 0K/512K, paused 1ms+2ms
+D/dalvikvm(17006): GC_CONCURRENT freed 436K, 47% free 3449K/6471K, external 0K/512K, paused 1ms+2ms
+D/dalvikvm(17006): GC_CONCURRENT freed 292K, 46% free 3558K/6471K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(17006): GC_FOR_MALLOC freed 293K, 46% free 3539K/6471K, external 0K/512K, paused 33ms
+I/dalvikvm-heap(17006): Grow heap (frag case) to 5.939MB for 81282-byte allocation
+D/dalvikvm(17006): GC_FOR_MALLOC freed 8K, 46% free 3610K/6599K, external 0K/512K, paused 30ms
+D/dalvikvm(17006): GC_FOR_MALLOC freed 40K, 46% free 3570K/6599K, external 0K/512K, paused 29ms
+I/dalvikvm-heap(17006): Grow heap (frag case) to 6.046MB for 162624-byte allocation
+D/dalvikvm(17006): GC_FOR_MALLOC freed 0K, 46% free 3729K/6791K, external 0K/512K, paused 28ms
+D/dalvikvm(17006): GC_FOR_MALLOC freed 82K, 45% free 3737K/6791K, external 0K/512K, paused 19ms
+D/dalvikvm(17006): GC_FOR_MALLOC freed <1K, 45% free 3796K/6791K, external 0K/512K, paused 18ms
+I/dalvikvm-heap(17006): Grow heap (frag case) to 6.228MB for 120756-byte allocation
+D/dalvikvm(17006): GC_FOR_MALLOC freed 0K, 44% free 3914K/6919K, external 0K/512K, paused 18ms
+D/dalvikvm(17006): GC_FOR_MALLOC freed 118K, 45% free 3855K/6919K, external 0K/512K, paused 17ms
+I/dalvikvm-heap(17006): Grow heap (frag case) to 6.401MB for 241496-byte allocation
+D/dalvikvm(17006): GC_FOR_MALLOC freed 0K, 43% free 4091K/7175K, external 0K/512K, paused 17ms
+D/dalvikvm(17006): GC_FOR_MALLOC freed <1K, 43% free 4091K/7175K, external 0K/512K, paused 17ms
+I/dalvikvm-heap(17006): Grow heap (frag case) to 6.516MB for 120756-byte allocation
+D/dalvikvm(17006): GC_FOR_MALLOC freed 0K, 43% free 4209K/7303K, external 0K/512K, paused 17ms
+D/dalvikvm(17006): GC_CONCURRENT freed 528K, 45% free 4074K/7303K, external 0K/512K, paused 2ms+3ms
+I/dalvikvm(17006): Total arena pages for JIT: 11
+D/dalvikvm(17006): GC_CONCURRENT freed 299K, 44% free 4161K/7303K, external 0K/512K, paused 1ms+4ms
+D/dalvikvm(17006): GC_CONCURRENT freed 344K, 43% free 4202K/7303K, external 0K/512K, paused 2ms+3ms
+D/dalvikvm(17006): GC_CONCURRENT freed 354K, 42% free 4254K/7303K, external 0K/512K, paused 2ms+3ms
+D/dalvikvm(17006): GC_CONCURRENT freed 606K, 45% free 4052K/7303K, external 0K/512K, paused 1ms+3ms
+I/ActivityManager( 1060): No longer want com.noshufou.android.su (pid 15862): hidden #16
+D/dalvikvm(16494): GC_EXPLICIT freed 66K, 50% free 2711K/5379K, external 0K/0K, paused 37ms
+D/dalvikvm(17006): GC_CONCURRENT freed 807K, 49% free 3756K/7303K, external 0K/512K, paused 3ms+3ms
+D/dalvikvm(17006): GC_CONCURRENT freed 734K, 52% free 3534K/7303K, external 0K/512K, paused 2ms+2ms
+D/dalvikvm(17006): GC_CONCURRENT freed 311K, 51% free 3622K/7303K, external 0K/512K, paused 6ms+2ms
+D/dalvikvm(12741): GC_CONCURRENT freed 455K, 51% free 2980K/6023K, external 271K/512K, paused 5ms+2ms
+D/dalvikvm(12741): GC_FOR_MALLOC freed 462K, 52% free 2948K/6023K, external 69K/512K, paused 14ms
+D/dalvikvm(12741): GC_CONCURRENT freed 115K, 51% free 2972K/6023K, external 244K/512K, paused 1ms+1ms
+D/dalvikvm( 1060): GC_EXTERNAL_ALLOC freed 461K, 44% free 7292K/12807K, external 2399K/2399K, paused 60ms
+D/dalvikvm(12741): GC_EXPLICIT freed 54K, 52% free 2944K/6023K, external 244K/512K, paused 47ms
+D/AirMail ( 1621): keepalive read
+D/dalvikvm(12741): GC_CONCURRENT freed 432K, 51% free 2977K/6023K, external 27K/512K, paused 5ms+4ms
+D/dalvikvm(12741): GC_CONCURRENT freed 428K, 51% free 2980K/6023K, external 157K/512K, paused 2ms+1ms
